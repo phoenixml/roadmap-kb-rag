@@ -19,6 +19,10 @@ PDF → LaTeX → KB → Qdrant → Neo4j → RAG → Self-Critique → Graph Re
 
 ## Quick Start
 
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
 sudo docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 
 python -m scripts.ingest_kb --kb_path ./data/kb/Unified_Attack_Knowledge_Base.json
