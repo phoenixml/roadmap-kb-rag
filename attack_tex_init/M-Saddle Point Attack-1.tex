@@ -1,0 +1,17 @@
+%AttackName: M-Saddle Point Attack-1
+
+%Input:
+\( f \) be the target model
+\( x \) be the original input 
+\( y \) be the true label
+\( \epsilon \) be the maximum allowable perturbation
+\( \delta \) generate adversarial perturbation such that the model is misled by maximizing the loss, while the defender minimizes it.
+
+%Output:
+The output is a perturbation \( \delta \) that forms a saddle point of the loss function \( L(f(x + \delta), y) \), satisfying both attack and defense objectives.
+
+%Formula:
+\min_{\theta}\max_{\|\delta\|\le\epsilon} L\bigl(f_{\theta}(x+\delta),y\bigr)
+
+%Explanation:
+The Saddle Point Adversarial Attack exploits the interaction between the adversary and the defender. The adversary maximizes the loss by perturbing the input \( x \) within the allowable range \( \|\delta\| \leq \epsilon \), while the defender minimizes the loss by adjusting the model parameters \( \theta \). This creates a dynamic process that seeks a saddle point in the loss landscape, demonstrating the vulnerabilities of the model when exposed to adversarial perturbations.

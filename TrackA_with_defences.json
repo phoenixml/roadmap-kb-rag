@@ -1,0 +1,7698 @@
+{
+  "graph_name": "TrackA",
+  "directed": true,
+  "num_nodes": 312,
+  "num_edges": 319,
+  "nodes": [
+    {
+      "id": "n53",
+      "label": "\"M-FGSM/ Mustafa\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n54",
+      "label": "\"M-BIM/ Mustafa\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n91",
+      "label": "\"M-M-PGD/ BAT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5040"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n92",
+      "label": "\"M-PGD/ BAT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5040",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n91"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n242",
+      "label": "\"A-Watermarking/ Data Sanitizing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n244",
+      "label": "\"A-FrogsAttacks/ Data Sanitizing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n245",
+      "label": "\"A-Collision Attack/ Data Sanitizing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n246",
+      "label": "\"A-One Shot-kill/ DS\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n251",
+      "label": "\"M-PGD-NonFast/ Pixel Defend\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n253",
+      "label": "\"A-APGD/ Pixel Defend\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2012",
+      "label": "\"M-PGD Fast/Data Augmentation\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n280",
+      "label": "\"A-TB-NES/ Randomization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n261",
+      "label": "\"A-SB/Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n262",
+      "label": "\"M-JSMA/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n263",
+      "label": "\"M-C&W/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n264",
+      "label": "\"M-ZOO/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n265",
+      "label": "\"A-QM/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n266",
+      "label": "\"A-UAP/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n267",
+      "label": "\"A-AutoZoom/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n268",
+      "label": "\"A-GenAttack/ Stocahstic Element, Shardped Edges\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n269",
+      "label": "\"A-ECO/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n270",
+      "label": "\"A-AAttack/ Stocahstic Element, Shardped Edges\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n271",
+      "label": "\"A-BayesOpt/ Stocahstic Element, Shardped Edges\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n281",
+      "label": "\"A-ScoreBased/Adversarial Purification\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n282",
+      "label": "\"A-NES/Augmented Adv Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n283",
+      "label": "\"A-T-NES-PGD/Augmented Adv Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n284",
+      "label": "\"A-T-NES-FGSM/Augmented Adv Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n286",
+      "label": "\"A-P-RGF/AT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n287",
+      "label": "\"A-Trans-P-RGF/AT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n288",
+      "label": "\"A-TREMBA/ AT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n4",
+      "label": "\"A\"",
+      "type": "other",
+      "shape": "ellipse",
+      "fontsize": "\"1500\"",
+      "width": "170",
+      "attributes": {
+        "height": "100"
+      },
+      "connections": {
+        "out": [
+          "n12",
+          "n2000",
+          "n700",
+          "n800"
+        ],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n12",
+      "label": "\"Unsupervised[3]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1300\"",
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n75",
+          "n76",
+          "n77",
+          "n79",
+          "n80",
+          "n900"
+        ],
+        "in": [
+          "n4"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n75",
+      "label": "\"K-Means[4]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n87",
+          "n90",
+          "n95"
+        ],
+        "in": [
+          "n12"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n87",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6004"
+        ],
+        "in": [
+          "n75"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6004",
+      "label": "\"Spill Over Attack/Preprocessing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n87"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n76",
+      "label": "\"AH[5]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n78",
+          "n86"
+        ],
+        "in": [
+          "n12"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n77",
+      "label": "\"GM[6]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n84"
+        ],
+        "in": [
+          "n12"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n78",
+      "label": "\"Ps-lhc/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n76"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n86",
+      "label": "\"Pc-lhc/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n76"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n79",
+      "label": "\"DBSCAN[8]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n756"
+        ],
+        "in": [
+          "n12"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n756",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6007"
+        ],
+        "in": [
+          "n79"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6007",
+      "label": "\"M-DBSCAN/DBSCAN Preprocessing Sanitizing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n756"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n90",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6005"
+        ],
+        "in": [
+          "n75"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6005",
+      "label": "\"NonConvex Optimization/Non-convex Guarantee\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n90"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n95",
+      "label": "\"Saddle Point Attack/Adversarial Traning\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n75"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n80",
+      "label": "\"CA[9]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n88",
+          "n89",
+          "n99",
+          "n98"
+        ],
+        "in": [
+          "n12"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n88",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6008"
+        ],
+        "in": [
+          "n80"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6008",
+      "label": "\"A-Weak Long Attacks/DBSCAN Preprocessing Sanitizing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n88",
+          "n89"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n89",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6008"
+        ],
+        "in": [
+          "n80"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n99",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6010"
+        ],
+        "in": [
+          "n80"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6010",
+      "label": "\"A-Boiling Frog Attacks/DBSCAN Preprocessing Sanitizing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n99"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n98",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6012"
+        ],
+        "in": [
+          "n80"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6012",
+      "label": "\"A-IPA Stealthy Attacks/DBSCAN Preprocessing Sanitizing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n98"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n84",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6006"
+        ],
+        "in": [
+          "n77"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6006",
+      "label": "\"M-Gaussian Noise/ Preprocessing, Certified Robustness\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n84"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n85",
+      "label": "\"M-Gaussian Noise/ Certified Robustness\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n700",
+      "label": "\"Supervised[32]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1000\"",
+      "width": "100",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n701",
+          "n702",
+          "n703",
+          "n705",
+          "n707",
+          "n711",
+          "n712",
+          "n725",
+          "n15",
+          "n14",
+          "n19"
+        ],
+        "in": [
+          "n4"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n711",
+      "label": "\"NLP[20]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1000\"",
+      "width": null,
+      "attributes": {
+        "height": "70"
+      },
+      "connections": {
+        "out": [
+          "n740",
+          "n780",
+          "n781",
+          "n782",
+          "n783",
+          "n784",
+          "n785",
+          "n786",
+          "n787",
+          "n788",
+          "n789",
+          "n790",
+          "n791",
+          "n792",
+          "n793",
+          "n794",
+          "n795",
+          "n796",
+          "n797",
+          "n798",
+          "n799",
+          "n9000",
+          "n9000",
+          "n9300",
+          "n9400",
+          "n9200",
+          "n9500",
+          "n9600"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n740",
+      "label": "\"A-Text Attack/Synonym Encoded Method\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n780",
+      "label": "\"A-Alzantot/Dirichlet Neighborhood Ensemble\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n781",
+      "label": "\"A-BAE/Dirichlet Neighborhood Ensemble\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n782",
+      "label": "\"A-BERT-Attack/Dirichlet Neighborhood Ensemble\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n783",
+      "label": "\"A-DepWordBug/Randomised smoothing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n784",
+      "label": "\"A-HotFlip/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n785",
+      "label": "\"A-InputReduction/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n786",
+      "label": "\"A-Morpheus/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n787",
+      "label": "\"A-Practical Swarm OPT/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n788",
+      "label": "\"A-Pruthi Keyabord Char-Swap/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n789",
+      "label": "\"A-PWWS/Synonym Encoded Method\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n790",
+      "label": "\"A-seq2sick/Randomised smoothing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n791",
+      "label": "\"A-TextBugger/Dirichlet Neighborhood Ensemble\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n792",
+      "label": "\"A_TextFooler/Dirichlet Neighborhood Ensemble\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n793",
+      "label": "\"A-Kuleshov/Randomised smoothing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n794",
+      "label": "\"A-GSA/Synonym Encoded Method\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n795",
+      "label": "\"A-IGA/Synonym Encoded Method\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n796",
+      "label": "\"A-GA/Synonym Encoded Method\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n797",
+      "label": "\"M-Gaussian Noise/Dirichlet Neighborhood Ensemble\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n798",
+      "label": "\"A-Bernoulli/Dirichlet Neighborhood Ensemble\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n799",
+      "label": "\"A-Adversarial noises/Dirichlet Neighborhood Ensemble\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n712",
+      "label": "\"PCA[36]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n713",
+          "n715"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n713",
+      "label": "\"PPCA[37]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n714"
+        ],
+        "in": [
+          "n712"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n714",
+      "label": "\"PC/RS\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n713"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n715",
+      "label": "\"Spoofing[39]\"",
+      "type": "attack",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n716"
+        ],
+        "in": [
+          "n712"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n716",
+      "label": "\"Spoofing/Data Sanitizing\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n715"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n701",
+      "label": "\"LR[12]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n710"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n710",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6042"
+        ],
+        "in": [
+          "n701"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6042",
+      "label": "\"LinBP/Pixel Defend\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n710"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n702",
+      "label": "\"Hierarchical[13]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n720"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n720",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6043"
+        ],
+        "in": [
+          "n702"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6043",
+      "label": "\"M-L∞-bounded/TRADES\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n720"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n703",
+      "label": "\"SVR,GPR[14]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n723"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n723",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6045"
+        ],
+        "in": [
+          "n703"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6045",
+      "label": "\"SVR,GPR/DBSCAN\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n723"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n705",
+      "label": "\"DT[16]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {
+        "URL": "\"https://github.com/phoenixml/research-DPA-References\""
+      },
+      "connections": {
+        "out": [],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n725",
+      "label": "\"SP[16]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n736"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n736",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6044"
+        ],
+        "in": [
+          "n725"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6044",
+      "label": "\"A-Systematic Poisoning/Systematic Defense\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n736"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n707",
+      "label": "\"NB[18]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n727",
+          "n728"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n727",
+      "label": "\"A-PANB/ Data Sanitizing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n707"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n728",
+      "label": "\"A-Label Modification/Data Sanitizing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n707"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n800",
+      "label": "\"Semi-Supervised[42]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1000\"",
+      "width": "150",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n801",
+          "n802"
+        ],
+        "in": [
+          "n4"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n801",
+      "label": "\"SSL-RF[43]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1050\"",
+      "width": "80",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n807"
+        ],
+        "in": [
+          "n800"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n802",
+      "label": "\"SSL-Deep[44]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"900\"",
+      "width": "80",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n805",
+          "n804",
+          "n803",
+          "n806"
+        ],
+        "in": [
+          "n800"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n803",
+      "label": "\"A-Naively poisoning/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n802"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n805",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6001"
+        ],
+        "in": [
+          "n802"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6001",
+      "label": "\"A-CDP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n805"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n804",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6002"
+        ],
+        "in": [
+          "n802"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6002",
+      "label": "\"A-APG/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n804"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n806",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6000"
+        ],
+        "in": [
+          "n802"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6000",
+      "label": "\"A-DeHiB/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n806"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n807",
+      "label": "\"Subtle Adv/Generated Probability Labels, Hard Class Lablels\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n801"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n900",
+      "label": "\"RL[11]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"300\"",
+      "width": "30",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n901",
+          "n903",
+          "n904",
+          "n905",
+          "n906"
+        ],
+        "in": [
+          "n12"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n901",
+      "label": "\"MC[29]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": null,
+      "attributes": {
+        "URL": "\"https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L239\""
+      },
+      "connections": {
+        "out": [
+          "n951"
+        ],
+        "in": [
+          "n900"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n951",
+      "label": "\"A-MIA/Hiding Prediction Information, adv regularization. Mix up Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n901"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n903",
+      "label": "\"Q-L[30]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"500\"",
+      "width": "30",
+      "attributes": {
+        "URL": "\"https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L239\""
+      },
+      "connections": {
+        "out": [
+          "n985",
+          "n986",
+          "n987",
+          "n988",
+          "n989",
+          "n990",
+          "n991",
+          "n992",
+          "n993",
+          "n994",
+          "n995"
+        ],
+        "in": [
+          "n900"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n985",
+      "label": "\"A-SPA/Ensemble Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n986",
+      "label": "\"A-PIA/Cascade Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n987",
+      "label": "\"A-WPA/Data Randomization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n988",
+      "label": "\"M-FGSM/Dynamic Quantized activation function, Denoiser, Multi Model Based Defense\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n989",
+      "label": "\"M-IFGSM/Adding regularization term, Modifying the network structure\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n990",
+      "label": "\"M-PGM/Principled adversarial training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n991",
+      "label": "\"M-CDG/Gradient band-based adversarial training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n992",
+      "label": "\"M-DeepFool/Data Randomization, Input transformations, Characterizing adversarial subspaces\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n993",
+      "label": "\"M-C&W/Data Randomization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n994",
+      "label": "\"M-JSMA/Input gradient regularization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n995",
+      "label": "\"M-ITGSM/Input gradient regularization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n903"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n904",
+      "label": "\"M-Pixel Based Attack/Ensemble Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n900"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n905",
+      "label": "\"A-Training Adversarial Policies/Cascade Adversarial\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n900"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n906",
+      "label": "\"M-C&W L2,L0,LInf/Defensive Distillation\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n900"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n13",
+      "label": "\"CNN[2]\"",
+      "type": "model",
+      "shape": "circle",
+      "fontsize": "\"1500\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n5040",
+          "n5092",
+          "n5000",
+          "n5002",
+          "n5003",
+          "n5012",
+          "n5004",
+          "n5013",
+          "n5014",
+          "n5005",
+          "n5072",
+          "n5010",
+          "n5016",
+          "n5091",
+          "n5019",
+          "n5021",
+          "n5023",
+          "n5032",
+          "n5020",
+          "n5008",
+          "n5011",
+          "n5015",
+          "n5007",
+          "n5076",
+          "n5077",
+          "n5078",
+          "n5079",
+          "n5080",
+          "n5081",
+          "n5024",
+          "n5073",
+          "n5074",
+          "n5075",
+          "n5018",
+          "n934376"
+        ],
+        "in": [
+          "n14"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n15",
+      "label": "\"SVM[21]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1300\"",
+      "width": "80",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n16",
+          "n50",
+          "n57",
+          "n57",
+          "n59",
+          "n61",
+          "n62",
+          "n63",
+          "n64"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n16",
+      "label": "\"M-SVM PA/DT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n50",
+      "label": "\"PSBV[40]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": "50",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n51"
+        ],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n51",
+      "label": "\"M-Poison SBV/LSD defense, KSSD\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n50"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n56",
+      "label": "\"M-Poison NSBV/K-LID-SSVM, LS-SVM, LN-SVM\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n57"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n57",
+      "label": "\"PNSBV[41]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": null,
+      "width": "70",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n56"
+        ],
+        "in": [
+          "n15",
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n59",
+      "label": "\"M-Gradient-descent/Kernel parameter optimization[172]\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n61",
+      "label": "\"A-Label Flipping/Label Sanitization[173]\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n62",
+      "label": "\"A-Poison insertion attacks/Data Sanitization[174]\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n63",
+      "label": "\"A-Data Modification Attacks/Data Sanitization[175]\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n64",
+      "label": "\"A-Boiling Frogs Attacks/Label Sanitization[176]\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n15"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n14",
+      "label": "\"NN[1]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1500\"",
+      "width": "250",
+      "attributes": {
+        "URL": "\"https://github.com/phoenixml/research-DPA-References/blob/main/DPA-Roadmap-Ref#L2\""
+      },
+      "connections": {
+        "out": [
+          "n13",
+          "n20"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n18",
+      "label": "\"A-GB-GCN\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n20"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n19",
+      "label": "\"RF[25]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1300\"",
+      "width": "100",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n25",
+          "n26",
+          "n27",
+          "n28",
+          "n29"
+        ],
+        "in": [
+          "n700"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n25",
+      "label": "\"A-DF/Robust Split with Information Gain\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n19"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n26",
+      "label": "\"A-GAN/Hardening Random Forest\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n19"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n27",
+      "label": "\"A-Kantchelian Attack/Robust Split\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n19"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n28",
+      "label": "\"A-Cheng Attack/Hardening Random Forest\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n19"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n29",
+      "label": "\"A-Papernote/Hardening Random Forest\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n19"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n20",
+      "label": "\"RNN[33]\"",
+      "type": "model",
+      "shape": "circle",
+      "fontsize": "1300",
+      "width": "100",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n18",
+          "n21",
+          "n22"
+        ],
+        "in": [
+          "n14"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n21",
+      "label": "\"A-LSTM/AT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n20"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n22",
+      "label": "\"A-BI-LSTM/AT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n20"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1001",
+      "label": "\"M-JPEG-Lp/ JPEG Compression\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5002"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1002",
+      "label": "\"M-APGD-AT/ Randomization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5003"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1003",
+      "label": "\"M-APGD-AT/ Logit Squeezing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5012"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1004",
+      "label": "\"M-Momentum/ Mustafa\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5004"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1005",
+      "label": "\"M-Momentum Iterative/ Super Resolution\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5013"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1006",
+      "label": "\"M-Momentum/ Image Denoisining\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5014"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1007",
+      "label": "\"M-Discretized Inputs/ OneHot\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5005"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1008",
+      "label": "\"M-Discretized Inputs/ Termometer Enconding\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5072"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1009",
+      "label": "\"A-Clean label/ Data Sanitizing\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5010"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1010",
+      "label": "\"M-Gradient Based / BAT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5016"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1011",
+      "label": "\"M-PGD Fast/ Data Augmentation\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5091"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1012",
+      "label": "\"M-PGD Fast/ Pixel Defense\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5019"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1013",
+      "label": "\"M-PGD Fast/ Defensive Distilation\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5021"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1014",
+      "label": "\"M-PGD Fast/ Regularization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5023"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1015",
+      "label": "\"M-MGA/ Vector Defence\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5032"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1016",
+      "label": "\"M-PGD Fast/ Gradient Masking\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5020"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1017",
+      "label": "\"A-IGB-Adam/ Vector Defence\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5008"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1018",
+      "label": "\"A-Image Scaling/ RobustScaling\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5011"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1021",
+      "label": "\"A-Discretized Inputs/ Thermometer Encoding\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5015"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1022",
+      "label": "\"M-Gradient Based/BAT\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5092"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5092",
+      "label": "\"Visibility=Visible(PGD$L\\infty$), Optimal perturbation(PGD$L_2$,PGD$L_1$)\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1022"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2000",
+      "label": "\"Unknown\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1300\"",
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n2013",
+          "n2014",
+          "n2015",
+          "n2016",
+          "n2017",
+          "n2018",
+          "n2019",
+          "n2020",
+          "n2021",
+          "n2022",
+          "n2023",
+          "n2024",
+          "n401703"
+        ],
+        "in": [
+          "n4"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2013",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6020"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6020",
+      "label": "\"A-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2013"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2014",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6021"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6021",
+      "label": "\"A-DF-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2014"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2015",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6023"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6023",
+      "label": "\"A-SV JSMA-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2015"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2016",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6065"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6065",
+      "label": "\"A-GAP-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2016"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2017",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6026"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6026",
+      "label": "\"A-Cos-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2017"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2018",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6027"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6027",
+      "label": "\"A-FFF/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2018"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2019",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6028"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6028",
+      "label": "\"A-AAA/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2019"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2020",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6029"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6029",
+      "label": "\"A-GD-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2020"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2021",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6030"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6030",
+      "label": "\"A-PD-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2021"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2022",
+      "label": "\"Visibility=Perceptual\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6031"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6031",
+      "label": "\"A-NAG/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2022"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2023",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6032"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6032",
+      "label": "\"A-DF-COCO-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2023"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n2024",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n6033"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n6033",
+      "label": "\"A-Cos-Jigsaw-UAP/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n2024"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1141",
+      "label": "\"A-ReColorAdv/ JPEG Compression\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5073"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1142",
+      "label": "\"A-cADV/ JPEG Compression\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5074"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1143",
+      "label": "\"A-AtADV/ JPEG Compression\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5075"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5001",
+      "label": "\"M-Gradient Descent/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": "100",
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1100",
+      "label": "\"Gradient Based/ Vector Defence\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5007"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1104",
+      "label": "\"A-DeepFool/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5076"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1107",
+      "label": "\"A-FGSM/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5077"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1109",
+      "label": "\"A-Cassidi/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5078"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1110",
+      "label": "\"A-NewtonFool/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5079"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1117",
+      "label": "\"A-TUAP/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5080"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1120",
+      "label": "\"A-DFO/ Adversarial Retraining\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5081"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1124",
+      "label": "\"A-Salt-Pepper/ Filter\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5024"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n1144",
+      "label": "\"A-Data Augmentation Attack/Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n5018"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5000",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n5001"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5002",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1001"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5003",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1002"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5012",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1003"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5004",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1004"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5013",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1005"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5014",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1006"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5005",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1007"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5072",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1008"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5010",
+      "label": "\"Visibility=Visible / Noise\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1009"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5016",
+      "label": "\"Visibility=Visible(PGDL∞), Optimal perturbation(PGDL2 ,PGDL1)\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1010"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5091",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1011"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5019",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1012"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5021",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1013"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5023",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1014"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5032",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1015"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5020",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1016"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5008",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1017"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5011",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1018"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5015",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1021"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5007",
+      "label": "\"Visibility=Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1100"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5076",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1104"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5077",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1107"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5078",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1109"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5079",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1110"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5080",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1117"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5081",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1120"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5024",
+      "label": "\"Visibility=Visible, Optimal perturbation\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1124"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5073",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1141"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5074",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1142"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5075",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1143"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n5018",
+      "label": "\"Visibility=Visible\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n1144"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9000",
+      "label": "\"LLM[50]\"",
+      "type": "model",
+      "shape": "circle",
+      "fontsize": "\"1500\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9001",
+          "n9001",
+          "n9002",
+          "n9002",
+          "n9003",
+          "n9003",
+          "n9004",
+          "n9004",
+          "n9005",
+          "n9005",
+          "n9006",
+          "n9006",
+          "n9007",
+          "n9007",
+          "n9008",
+          "n9008",
+          "n9009",
+          "n9009",
+          "n9010",
+          "n9010",
+          "n9011",
+          "n9011",
+          "n9012",
+          "n9012",
+          "n9013",
+          "n9013",
+          "n9014",
+          "n9014",
+          "n9015",
+          "n9015"
+        ],
+        "in": [
+          "n711",
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9001",
+      "label": "\"A-Prompt-Injection / LLM\"",
+      "type": "model",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9030",
+          "n9030",
+          "n9020",
+          "n9020"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9020"
+      ]
+    },
+    {
+      "id": "n9002",
+      "label": "\"A-Jailbreak / LLM\"",
+      "type": "model",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9030",
+          "n9030",
+          "n9025",
+          "n9025"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9025"
+      ]
+    },
+    {
+      "id": "n9003",
+      "label": "\"A-Model-Extraction / LLM\"",
+      "type": "model",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9032",
+          "n9032",
+          "n9024",
+          "n9024"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9024"
+      ]
+    },
+    {
+      "id": "n9004",
+      "label": "\"A-Finetune-Backdoor / Instruction Tuning Poison\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9033",
+          "n9033"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9005",
+      "label": "\"A-Chain-of-Thought Poison / Rationale Tampering\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9006",
+      "label": "\"A-Context Data Leakage / Sensitive Exposure\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9031",
+          "n9031",
+          "n9021",
+          "n9021"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9021"
+      ]
+    },
+    {
+      "id": "n9007",
+      "label": "\"A-Model-Inversion / LLM\"",
+      "type": "model",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9023",
+          "n9023"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9023"
+      ]
+    },
+    {
+      "id": "n9008",
+      "label": "\"A-Membership-Inference (LLM) / API-based\"",
+      "type": "model",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9009",
+      "label": "\"A-Extraction-via-Plugins / Supply-chain & Plugins\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9010",
+      "label": "\"A-API-Abuse / Rate-limit & Abuse\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9011",
+      "label": "\"A-Chain-Extraction (iterative queries)\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9012",
+      "label": "\"A-Data-Poisoning (instruction corpora)\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9023",
+          "n9023"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9023"
+      ]
+    },
+    {
+      "id": "n9013",
+      "label": "\"A-SideChannel/Timing & Memory Leakage\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9014",
+      "label": "\"A-Gradient-Leakage (fine-tune oracle)\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9023",
+          "n9023"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9023"
+      ]
+    },
+    {
+      "id": "n9015",
+      "label": "\"A-Privileged-Prompt-Leak (system prompt exposure)\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9020",
+          "n9020"
+        ],
+        "in": [
+          "n9000",
+          "n9000"
+        ]
+      },
+      "defences_used": [
+        "n9020"
+      ]
+    },
+    {
+      "id": "n9020",
+      "label": "\"M-Input-Sanitization / Prompt Filters\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9001",
+          "n9001",
+          "n9015",
+          "n9015"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9021",
+      "label": "\"M-Output-Filtering / Redaction / Safety layer\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9006",
+          "n9006"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9023",
+      "label": "\"M-Differential-Privacy / DP SGD\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9012",
+          "n9012",
+          "n9007",
+          "n9007",
+          "n9014",
+          "n9014"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9024",
+      "label": "\"M-Model-Watermarking / Output Traces\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9003",
+          "n9003"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9025",
+      "label": "\"M-RedTeam/Jailbreak-Testing & Canary Prompts\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9002",
+          "n9002"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9030",
+      "label": "\"Visibility=Text-Level\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9001",
+          "n9001",
+          "n9002",
+          "n9002"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9031",
+      "label": "\"Visibility=Hidden/System-Context\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9006",
+          "n9006"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9032",
+      "label": "\"Access=Public-API / Black-box\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9003",
+          "n9003"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9033",
+      "label": "\"Access=Fine-tune / White-box\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9004",
+          "n9004"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9022",
+      "label": "\"M-Rate-Limit & Throttling\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": []
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9300",
+      "label": "\"Graph-NNs[25]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1500\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9301",
+          "n9302",
+          "n9303",
+          "n9304"
+        ],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9301",
+      "label": "\"A-Nettack / Structure Poison\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9310"
+        ],
+        "in": [
+          "n9300"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9302",
+      "label": "\"A-Meta-Attack / MetaGrad Poison\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9311"
+        ],
+        "in": [
+          "n9300"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9303",
+      "label": "\"A-PGD-on-Graphs / Node Perturb\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9312"
+        ],
+        "in": [
+          "n9300"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9304",
+      "label": "\"A-GradArgmax / Feature Perturb\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9310"
+        ],
+        "in": [
+          "n9300"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9310",
+      "label": "\"M-Graph-Sanitization / Edge Prune\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9301",
+          "n9304"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9311",
+      "label": "\"M-Robust-Aggregation (graph)\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9302"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9312",
+      "label": "\"M-Certifiable-Robustness / Graph Smoothing\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9303"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9400",
+      "label": "\"Generative-Models[20]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1500\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9401",
+          "n9402",
+          "n9403",
+          "n9404"
+        ],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9401",
+      "label": "\"A-Mode-Collapse Poison\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9410"
+        ],
+        "in": [
+          "n9400"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9402",
+      "label": "\"A-Latent-Space Manipulation\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9411"
+        ],
+        "in": [
+          "n9400"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9403",
+      "label": "\"A-Training-Poison Discriminator\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9410"
+        ],
+        "in": [
+          "n9400"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9404",
+      "label": "\"A-DeepFake Perturb\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9412"
+        ],
+        "in": [
+          "n9400"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9410",
+      "label": "\"M-Robust-GAN-Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9401",
+          "n9403"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9411",
+      "label": "\"M-Latent-Consistency-Regularization\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9402"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9412",
+      "label": "\"M-Data-Provenance-Checks\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9404"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9200",
+      "label": "\"Federated-Learning[30]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"2500\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9201",
+          "n9202",
+          "n9203",
+          "n9204",
+          "n9205"
+        ],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9201",
+      "label": "\"A-Model-Poisoning / Byzantine Clients\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9211"
+        ],
+        "in": [
+          "n9200"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9202",
+      "label": "\"A-Backdoor-Injection\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9211"
+        ],
+        "in": [
+          "n9200"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9203",
+      "label": "\"A-Gradient-Inversion\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9210",
+          "n9212"
+        ],
+        "in": [
+          "n9200"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9204",
+      "label": "\"A-FreeRider Attack\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9213"
+        ],
+        "in": [
+          "n9200"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9205",
+      "label": "\"A-Data-Poisoning (local dataset)\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9211"
+        ],
+        "in": [
+          "n9200"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9210",
+      "label": "\"M-Secure-Aggregation\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9203"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9211",
+      "label": "\"M-Robust-Aggregation (Krum, Median)\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9201",
+          "n9202",
+          "n9205"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9212",
+      "label": "\"M-Differential-Privacy (DP-FL)\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9203"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9213",
+      "label": "\"M-Anomaly-Detection / Client Filter\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9204"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9500",
+      "label": "\"GNN\"",
+      "type": "model",
+      "shape": "circle",
+      "fontsize": "\"1000\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9501",
+          "n9502"
+        ],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9501",
+      "label": "\"A-Shilling / Sybil Profiles\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9510"
+        ],
+        "in": [
+          "n9500"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9502",
+      "label": "\"A-Data-Poisoning / Fake Interactions\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9511"
+        ],
+        "in": [
+          "n9500"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9510",
+      "label": "\"M-Anomaly-Detection / User Behavior\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9501"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9511",
+      "label": "\"M-Robust-Matrix-Factorization\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9502"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9600",
+      "label": "\"Multimodal-Models[18]\"",
+      "type": "other",
+      "shape": "circle",
+      "fontsize": "\"1500\"",
+      "width": "200",
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9601",
+          "n9602",
+          "n9603"
+        ],
+        "in": [
+          "n711"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9601",
+      "label": "\"A-Cross-Modal Perturb (image->caption)\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9610"
+        ],
+        "in": [
+          "n9600"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9602",
+      "label": "\"A-Audio Adversarial (hidden speech)\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9611"
+        ],
+        "in": [
+          "n9600"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9603",
+      "label": "\"A-Video Frame Poison\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n9612"
+        ],
+        "in": [
+          "n9600"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9610",
+      "label": "\"M-Multimodal-Consistency-Checks\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9601"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9611",
+      "label": "\"M-Audio-Watermarking\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9602"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n9612",
+      "label": "\"M-Input-Denoising / Video\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n9603"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n934376",
+      "label": "\"Visibility=Optimal/Perfectly Visible\"",
+      "type": "attack",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n391888"
+        ],
+        "in": [
+          "n13"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n391888",
+      "label": "\"Adversarial Training\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n934376"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n401703",
+      "label": "\"Visibility=Targeted\"",
+      "type": "other",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [
+          "n244022"
+        ],
+        "in": [
+          "n2000"
+        ]
+      },
+      "defences_used": []
+    },
+    {
+      "id": "n244022",
+      "label": "\"A-M-Ps Lhc Adversarial Attack / Adversarial Training / Gradient Masking / Input Preprocessing\"",
+      "type": "defence",
+      "shape": "plaintext",
+      "fontsize": null,
+      "width": null,
+      "attributes": {},
+      "connections": {
+        "out": [],
+        "in": [
+          "n401703"
+        ]
+      },
+      "defences_used": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "n5040",
+      "target": "n91",
+      "type": "connection",
+      "label": "\"Perturbation Search=Non Fast\"",
+      "attributes": {}
+    },
+    {
+      "source": "n4",
+      "target": "n12",
+      "type": "connection",
+      "label": "\"VM=Unsupervised\"",
+      "attributes": {}
+    },
+    {
+      "source": "n4",
+      "target": "n2000",
+      "type": "connection",
+      "label": "\"VM=Unknown\"",
+      "attributes": {}
+    },
+    {
+      "source": "n4",
+      "target": "n700",
+      "type": "connection",
+      "label": "\"VM=Supervised\"",
+      "attributes": {}
+    },
+    {
+      "source": "n4",
+      "target": "n800",
+      "type": "connection",
+      "label": "\"VM=Semi-Supervised\"",
+      "attributes": {}
+    },
+    {
+      "source": "n12",
+      "target": "n75",
+      "type": "connection",
+      "label": "\"TA=K-Means Clustering\"",
+      "attributes": {}
+    },
+    {
+      "source": "n12",
+      "target": "n76",
+      "type": "connection",
+      "label": "\"TA=Agglomerative Hierarchical\"",
+      "attributes": {}
+    },
+    {
+      "source": "n12",
+      "target": "n77",
+      "type": "connection",
+      "label": "\"TA=Guassian Mixture\"",
+      "attributes": {}
+    },
+    {
+      "source": "n12",
+      "target": "n79",
+      "type": "connection",
+      "label": "\"TA=DBSCAN Clustering\"",
+      "attributes": {}
+    },
+    {
+      "source": "n12",
+      "target": "n80",
+      "type": "connection",
+      "label": "\"TA=Component Analysis\"",
+      "attributes": {}
+    },
+    {
+      "source": "n12",
+      "target": "n900",
+      "type": "connection",
+      "label": "\"TA=Reinforcement Learning\"",
+      "attributes": {}
+    },
+    {
+      "source": "n75",
+      "target": "n87",
+      "type": "connection",
+      "label": "\"PC=Spill Over\"",
+      "attributes": {}
+    },
+    {
+      "source": "n75",
+      "target": "n90",
+      "type": "connection",
+      "label": "\"PC=NonConvex Optimization\"",
+      "attributes": {}
+    },
+    {
+      "source": "n75",
+      "target": "n95",
+      "type": "connection",
+      "label": "\"PC=Byazantine-PGD\"",
+      "attributes": {}
+    },
+    {
+      "source": "n87",
+      "target": "n6004",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n76",
+      "target": "n78",
+      "type": "connection",
+      "label": "\"PC=Poisoning single-linkage hierarchical clustering\"",
+      "attributes": {}
+    },
+    {
+      "source": "n76",
+      "target": "n86",
+      "type": "connection",
+      "label": "\"PC=Poisoning complete-linkage hierarchical clustering\"",
+      "attributes": {}
+    },
+    {
+      "source": "n77",
+      "target": "n84",
+      "type": "connection",
+      "label": "\"PC=Poisson-Gaussian Noise\"",
+      "attributes": {}
+    },
+    {
+      "source": "n79",
+      "target": "n756",
+      "type": "connection",
+      "label": "\"PC=UBAC\"",
+      "attributes": {}
+    },
+    {
+      "source": "n756",
+      "target": "n6007",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n90",
+      "target": "n6005",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Search Lipschitz\"",
+      "attributes": {}
+    },
+    {
+      "source": "n80",
+      "target": "n88",
+      "type": "connection",
+      "label": "\"PC=IPA-Stealthy-PA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n80",
+      "target": "n89",
+      "type": "connection",
+      "label": "\"PC=FNR\"",
+      "attributes": {}
+    },
+    {
+      "source": "n80",
+      "target": "n99",
+      "type": "connection",
+      "label": "\"PC=FNR-Boiling Frog-PA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n80",
+      "target": "n98",
+      "type": "connection",
+      "label": "\"PC=IPA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n88",
+      "target": "n6008",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n89",
+      "target": "n6008",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n99",
+      "target": "n6010",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n98",
+      "target": "n6012",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n84",
+      "target": "n6006",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n701",
+      "type": "connection",
+      "label": "\"TA=Linear Regression\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n702",
+      "type": "connection",
+      "label": "\"TA=Hierarchical\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n703",
+      "type": "connection",
+      "label": "\"TA=SVR,GPR\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n705",
+      "type": "connection",
+      "label": "\"TA=Decision Trees\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n707",
+      "type": "connection",
+      "label": "\"TA=Naive Bayes\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n711",
+      "type": "connection",
+      "label": "\"TA=Transformers\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n712",
+      "type": "connection",
+      "label": "\"TA=PCA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n725",
+      "type": "connection",
+      "label": "\"TA=Decision Trees\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n15",
+      "type": "connection",
+      "label": "\"TA=Support Vector Machine\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n14",
+      "type": "connection",
+      "label": "\"TA=NN\"",
+      "attributes": {}
+    },
+    {
+      "source": "n700",
+      "target": "n19",
+      "type": "connection",
+      "label": "\"TA=Random Forest\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n740",
+      "type": "connection",
+      "label": "\"PC=Text Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n780",
+      "type": "connection",
+      "label": "\"PC=Alzantot\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n781",
+      "type": "connection",
+      "label": "\"PC=BAE\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n782",
+      "type": "connection",
+      "label": "\"PC=BERT-Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n783",
+      "type": "connection",
+      "label": "\"PC=DepWordBug\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n784",
+      "type": "connection",
+      "label": "\"PC=HotFlip\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n785",
+      "type": "connection",
+      "label": "\"PC=InputReduction\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n786",
+      "type": "connection",
+      "label": "\"PC=Morpheus\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n787",
+      "type": "connection",
+      "label": "\"PC=Practical Swarm OPT\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n788",
+      "type": "connection",
+      "label": "\"PC=Pruthi Keyabord Char-Swap\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n789",
+      "type": "connection",
+      "label": "\"PC=PWWS\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n790",
+      "type": "connection",
+      "label": "\"PC=seq2sick\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n791",
+      "type": "connection",
+      "label": "\"PC=TextBugger\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n792",
+      "type": "connection",
+      "label": "\"PC=TextFooler\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n793",
+      "type": "connection",
+      "label": "\"PC=Kuleshov\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n794",
+      "type": "connection",
+      "label": "\"PC=GSA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n795",
+      "type": "connection",
+      "label": "\"PC=IGA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n796",
+      "type": "connection",
+      "label": "\"PC=GA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n797",
+      "type": "connection",
+      "label": "\"PC=Gaussian Noise\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n798",
+      "type": "connection",
+      "label": "\"PC=Bernoulli\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n799",
+      "type": "connection",
+      "label": "\"PC=Adversarial noises\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9000",
+      "type": "connection",
+      "label": "\"TA=LLM / Transformers -> LLM family\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9000",
+      "type": "connection",
+      "label": "\"TA=LLM / Transformers\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9300",
+      "type": "connection",
+      "label": "\"TA=Graph Neural Nets\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9400",
+      "type": "connection",
+      "label": "\"TA=Generative Models\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9200",
+      "type": "connection",
+      "label": "\"TA=Federated Learning\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9500",
+      "type": "connection",
+      "label": "\"TA=Recommenders\"",
+      "attributes": {}
+    },
+    {
+      "source": "n711",
+      "target": "n9600",
+      "type": "connection",
+      "label": "\"TA=Multimodal AI\"",
+      "attributes": {}
+    },
+    {
+      "source": "n712",
+      "target": "n713",
+      "type": "connection",
+      "label": "\"TM= White Box\"",
+      "attributes": {}
+    },
+    {
+      "source": "n712",
+      "target": "n715",
+      "type": "connection",
+      "label": "\"TM= Gray Box\"",
+      "attributes": {}
+    },
+    {
+      "source": "n713",
+      "target": "n714",
+      "type": "connection",
+      "label": "\"PC=Poisoning Adaptation\"",
+      "attributes": {}
+    },
+    {
+      "source": "n715",
+      "target": "n716",
+      "type": "connection",
+      "label": "\"PC=Spoofing\"",
+      "attributes": {}
+    },
+    {
+      "source": "n701",
+      "target": "n710",
+      "type": "connection",
+      "label": "\"PC=LinBP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n710",
+      "target": "n6042",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n702",
+      "target": "n720",
+      "type": "connection",
+      "label": "\"PC=L∞-bounded\"",
+      "attributes": {}
+    },
+    {
+      "source": "n720",
+      "target": "n6043",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n703",
+      "target": "n723",
+      "type": "connection",
+      "label": "\"PC=SVR poisoning\"",
+      "attributes": {}
+    },
+    {
+      "source": "n723",
+      "target": "n6045",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n725",
+      "target": "n736",
+      "type": "connection",
+      "label": "\"PC=Systematic Poisoning\"",
+      "attributes": {}
+    },
+    {
+      "source": "n736",
+      "target": "n6044",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n707",
+      "target": "n727",
+      "type": "connection",
+      "label": "\"PC=PANB\"",
+      "attributes": {}
+    },
+    {
+      "source": "n707",
+      "target": "n728",
+      "type": "connection",
+      "label": "\"PC=Label Modification\"",
+      "attributes": {}
+    },
+    {
+      "source": "n800",
+      "target": "n801",
+      "type": "connection",
+      "label": "\"TA=SSL-RF\"",
+      "attributes": {}
+    },
+    {
+      "source": "n800",
+      "target": "n802",
+      "type": "connection",
+      "label": "\"TA=SSL-Deep\"",
+      "attributes": {}
+    },
+    {
+      "source": "n801",
+      "target": "n807",
+      "type": "connection",
+      "label": "\"PC=Subtle Adv\"",
+      "attributes": {}
+    },
+    {
+      "source": "n802",
+      "target": "n805",
+      "type": "connection",
+      "label": "\"PC=CDP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n802",
+      "target": "n804",
+      "type": "connection",
+      "label": "\"PC=APG\"",
+      "attributes": {}
+    },
+    {
+      "source": "n802",
+      "target": "n803",
+      "type": "connection",
+      "label": "\"PC=NP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n802",
+      "target": "n806",
+      "type": "connection",
+      "label": "\"PC=APG+CDP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n805",
+      "target": "n6001",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n804",
+      "target": "n6002",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n806",
+      "target": "n6000",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n900",
+      "target": "n901",
+      "type": "connection",
+      "label": "\"TA=Monte Carlo\"",
+      "attributes": {}
+    },
+    {
+      "source": "n900",
+      "target": "n903",
+      "type": "connection",
+      "label": "\"TA=DQ-Learning\"",
+      "attributes": {}
+    },
+    {
+      "source": "n900",
+      "target": "n904",
+      "type": "connection",
+      "label": "\"PC=Pixel Based Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n900",
+      "target": "n905",
+      "type": "connection",
+      "label": "\"PC=Training Adversarial Policies\"",
+      "attributes": {}
+    },
+    {
+      "source": "n900",
+      "target": "n906",
+      "type": "connection",
+      "label": "\"PC=C&W L2,L0,LInf\"",
+      "attributes": {}
+    },
+    {
+      "source": "n901",
+      "target": "n951",
+      "type": "connection",
+      "label": "\"PC=Membership Inference Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n985",
+      "type": "connection",
+      "label": "\"PC=SPA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n986",
+      "type": "connection",
+      "label": "\"PC=PIA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n987",
+      "type": "connection",
+      "label": "\"PC=WPA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n988",
+      "type": "connection",
+      "label": "\"PC=FGSM\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n989",
+      "type": "connection",
+      "label": "\"PC=IFGSM\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n990",
+      "type": "connection",
+      "label": "\"PC=PGM\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n991",
+      "type": "connection",
+      "label": "\"PC=CDG\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n992",
+      "type": "connection",
+      "label": "\"PC=DeepFool\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n993",
+      "type": "connection",
+      "label": "\"PC=C&W\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n994",
+      "type": "connection",
+      "label": "\"PC=JSMA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n903",
+      "target": "n995",
+      "type": "connection",
+      "label": "\"PC=ITGSM\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5040",
+      "type": "connection",
+      "label": "\"PC=Projected Gradient Descent\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5092",
+      "type": "connection",
+      "label": "\"PC=PGD\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5000",
+      "type": "connection",
+      "label": "\"PC=Gradient Descent\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5002",
+      "type": "connection",
+      "label": "\"PC=JPEG-Lp\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5003",
+      "type": "connection",
+      "label": "\"PC=APGD-AT-Randomization\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5012",
+      "type": "connection",
+      "label": "\"PC=APGD-AT-Logit Squeezing\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5004",
+      "type": "connection",
+      "label": "\"PC=Momentum-Mustafa\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5013",
+      "type": "connection",
+      "label": "\"PC=Momentum Iterative-Super resolution\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5014",
+      "type": "connection",
+      "label": "\"PC=Momentum-Denoisining\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5005",
+      "type": "connection",
+      "label": "\"PC=Discretized Inputs\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5072",
+      "type": "connection",
+      "label": "\"PC=Discretized Inputs\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5010",
+      "type": "connection",
+      "label": "\"PC=Watermarking\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5016",
+      "type": "connection",
+      "label": "\"PC=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5091",
+      "type": "connection",
+      "label": "\"PC=PGD Fast\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5019",
+      "type": "connection",
+      "label": "\"PC=PGD Fast\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5021",
+      "type": "connection",
+      "label": "\"PC=PGD Fast\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5023",
+      "type": "connection",
+      "label": "\"PC=PGD Fast\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5032",
+      "type": "connection",
+      "label": "\"PC=M-Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5020",
+      "type": "connection",
+      "label": "\"PC=PGD Fast\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5008",
+      "type": "connection",
+      "label": "\"PC=IGB-Adam\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5011",
+      "type": "connection",
+      "label": "\"PC=Image Scaling\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5015",
+      "type": "connection",
+      "label": "\"PC=Discretized Inputs\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5007",
+      "type": "connection",
+      "label": "\"PC=M-PGD\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5076",
+      "type": "connection",
+      "label": "\"PC=DeepFool\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5077",
+      "type": "connection",
+      "label": "\"PC=FGSM\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5078",
+      "type": "connection",
+      "label": "\"PC=Cassidi\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5079",
+      "type": "connection",
+      "label": "\"PC=NewtonFool\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5080",
+      "type": "connection",
+      "label": "\"PC=TUAP\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5081",
+      "type": "connection",
+      "label": "\"PC=DFO\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5024",
+      "type": "connection",
+      "label": "\"PC=Salt-Pepper\"",
+      "attributes": {
+        "shape": "circle"
+      }
+    },
+    {
+      "source": "n13",
+      "target": "n5073",
+      "type": "connection",
+      "label": "\"PC=ReColorAdv\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5074",
+      "type": "connection",
+      "label": "\"PC=cADV\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5075",
+      "type": "connection",
+      "label": "\"PC=AtADV\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n5018",
+      "type": "connection",
+      "label": "\"PC=GAN\"",
+      "attributes": {}
+    },
+    {
+      "source": "n13",
+      "target": "n934376",
+      "type": "connection",
+      "label": "\"PC=Fast Minimum-norm (FMN) Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n16",
+      "type": "connection",
+      "label": "\"PC=SVM PA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n50",
+      "type": "connection",
+      "label": "\"PC=Poison Sparse Binary Vectors\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n57",
+      "type": "connection",
+      "label": "\"PC=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n57",
+      "type": "connection",
+      "label": "\"PC=Non-Sparse Binary Vectors\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n59",
+      "type": "connection",
+      "label": "\"PC=Gradient-descent attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n61",
+      "type": "connection",
+      "label": "\"PC=Label Flipping\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n62",
+      "type": "connection",
+      "label": "\"PC=Poison insertion attacks\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n63",
+      "type": "connection",
+      "label": "\"PC=Data modification attacks\"",
+      "attributes": {}
+    },
+    {
+      "source": "n15",
+      "target": "n64",
+      "type": "connection",
+      "label": "\"PC=Boiling frog attacks\"",
+      "attributes": {}
+    },
+    {
+      "source": "n50",
+      "target": "n51",
+      "type": "connection",
+      "label": "\"PSM=Sparse Binary Vectors\"",
+      "attributes": {}
+    },
+    {
+      "source": "n57",
+      "target": "n56",
+      "type": "connection",
+      "label": "\"PSM=Non-Sparse Binary Vectors\"",
+      "attributes": {}
+    },
+    {
+      "source": "n14",
+      "target": "n13",
+      "type": "connection",
+      "label": "\"TA=CNN\"",
+      "attributes": {}
+    },
+    {
+      "source": "n14",
+      "target": "n20",
+      "type": "connection",
+      "label": "\"TA=RNN\"",
+      "attributes": {}
+    },
+    {
+      "source": "n19",
+      "target": "n25",
+      "type": "connection",
+      "label": "\"PC=DF\"",
+      "attributes": {}
+    },
+    {
+      "source": "n19",
+      "target": "n26",
+      "type": "connection",
+      "label": "\"PC=GAN\"",
+      "attributes": {}
+    },
+    {
+      "source": "n19",
+      "target": "n27",
+      "type": "connection",
+      "label": "\"PC=Kantchelian Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n19",
+      "target": "n28",
+      "type": "connection",
+      "label": "\"PC=Cheng Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n19",
+      "target": "n29",
+      "type": "connection",
+      "label": "\"PC=Papernote\"",
+      "attributes": {}
+    },
+    {
+      "source": "n20",
+      "target": "n18",
+      "type": "connection",
+      "label": "\"PC=GB-GCN\"",
+      "attributes": {}
+    },
+    {
+      "source": "n20",
+      "target": "n21",
+      "type": "connection",
+      "label": "\"PC=LSTM\"",
+      "attributes": {}
+    },
+    {
+      "source": "n20",
+      "target": "n22",
+      "type": "connection",
+      "label": "\"PC=BI-LSTM\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5092",
+      "target": "n1022",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2013",
+      "type": "connection",
+      "label": "\"PC= Vanilla Universal-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2014",
+      "type": "connection",
+      "label": "\"PC= Dominant Feature-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2015",
+      "type": "connection",
+      "label": "\"PC= SV JSMA-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2016",
+      "type": "connection",
+      "label": "\"PC= GAP-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2017",
+      "type": "connection",
+      "label": "\"PC= Cos-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2018",
+      "type": "connection",
+      "label": "\"PC= FFF\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2019",
+      "type": "connection",
+      "label": "\"PC= AAA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2020",
+      "type": "connection",
+      "label": "\"PC=Class Discriminative UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2021",
+      "type": "connection",
+      "label": "\"PC=Prior Driven Uncertinity Approximation\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2022",
+      "type": "connection",
+      "label": "\"PC=Netowrk For Adversary Generation\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2023",
+      "type": "connection",
+      "label": "\"PC= DF-COCO-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n2024",
+      "type": "connection",
+      "label": "\"PC= Cos-Jigsaw-UAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2000",
+      "target": "n401703",
+      "type": "connection",
+      "label": "\"PC=M-Ps LHC Adversarial Attack\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2013",
+      "target": "n6020",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2014",
+      "target": "n6021",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2015",
+      "target": "n6023",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2016",
+      "target": "n6065",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2017",
+      "target": "n6026",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2018",
+      "target": "n6027",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2019",
+      "target": "n6028",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2020",
+      "target": "n6029",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2021",
+      "target": "n6030",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2022",
+      "target": "n6031",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2023",
+      "target": "n6032",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n2024",
+      "target": "n6033",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5000",
+      "target": "n5001",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5002",
+      "target": "n1001",
+      "type": "connection",
+      "label": "\"Perturbation Search=Additive + Functional (Assembly)\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5003",
+      "target": "n1002",
+      "type": "connection",
+      "label": "\"Perturbation Search= Random Search (Assembly)\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5012",
+      "target": "n1003",
+      "type": "connection",
+      "label": "\"Perturbation Search=Random Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5004",
+      "target": "n1004",
+      "type": "connection",
+      "label": "\"Perturbation Search= Momentum Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5013",
+      "target": "n1005",
+      "type": "connection",
+      "label": "\"Perturbation Search=Momentum Iterative\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5014",
+      "target": "n1006",
+      "type": "connection",
+      "label": "\"Perturbation Search=Momentum Iterative\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5005",
+      "target": "n1007",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5072",
+      "target": "n1008",
+      "type": "connection",
+      "label": "\"Perturbation Search=LS-PGA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5010",
+      "target": "n1009",
+      "type": "connection",
+      "label": "\"Perturbation Search=NA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5016",
+      "target": "n1010",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5091",
+      "target": "n1011",
+      "type": "connection",
+      "label": "\"Perturbation Search=Fast Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5019",
+      "target": "n1012",
+      "type": "connection",
+      "label": "\"Perturbation Search=Fast Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5021",
+      "target": "n1013",
+      "type": "connection",
+      "label": "\"Perturbation Search=Fast Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5023",
+      "target": "n1014",
+      "type": "connection",
+      "label": "\"Perturbation Search=Fast Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5032",
+      "target": "n1015",
+      "type": "connection",
+      "label": "\"Perturbation Search=Momentum Iterative\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5020",
+      "target": "n1016",
+      "type": "connection",
+      "label": "\"Perturbation Search=Fast Search\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5008",
+      "target": "n1017",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5011",
+      "target": "n1018",
+      "type": "connection",
+      "label": "\"Perturbation Search=NA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5015",
+      "target": "n1021",
+      "type": "connection",
+      "label": "\"Perturbation Search=Momentum Iterative\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5007",
+      "target": "n1100",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5076",
+      "target": "n1104",
+      "type": "connection",
+      "label": "\"Perturbation Search=Closet decision boundary\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5077",
+      "target": "n1107",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Sign Method\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5078",
+      "target": "n1109",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Sign Method\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5079",
+      "target": "n1110",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient Descent\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5080",
+      "target": "n1117",
+      "type": "connection",
+      "label": "\"Perturbation Search=TUAP\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5081",
+      "target": "n1120",
+      "type": "connection",
+      "label": "\"Perturbation Search=DFOer restrictions\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5024",
+      "target": "n1124",
+      "type": "connection",
+      "label": "\"Perturbation Search=NA\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5073",
+      "target": "n1141",
+      "type": "connection",
+      "label": "\"Perturbation Search=Additive + Functional (Assembly)\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5074",
+      "target": "n1142",
+      "type": "connection",
+      "label": "\"Perturbation Search=Hint and mask\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5075",
+      "target": "n1143",
+      "type": "connection",
+      "label": "\"Perturbation Search=Color Space nearest target Ts\"",
+      "attributes": {}
+    },
+    {
+      "source": "n5018",
+      "target": "n1144",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gan Based (Assembly)\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9001",
+      "type": "connection",
+      "label": "\"PC=Prompt-Input\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9001",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9002",
+      "type": "connection",
+      "label": "\"PC=Prompt-Input\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9002",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9003",
+      "type": "connection",
+      "label": "\"PC=Query-Extraction\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9003",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9004",
+      "type": "connection",
+      "label": "\"PC=Poisoned-Finetune\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9004",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9005",
+      "type": "connection",
+      "label": "\"PC=Instruction-Poison\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9005",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9006",
+      "type": "connection",
+      "label": "\"PC=Context-Window\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9006",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9007",
+      "type": "connection",
+      "label": "\"PC=Reconstruction\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9007",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9008",
+      "type": "connection",
+      "label": "\"PC=Query-Based\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9008",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9009",
+      "type": "connection",
+      "label": "\"PC=Plugin-Interface\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9009",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9010",
+      "type": "connection",
+      "label": "\"PC=API-Abuse\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9010",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9011",
+      "type": "connection",
+      "label": "\"PC=Iterative-Extraction\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9011",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9012",
+      "type": "connection",
+      "label": "\"PC=Training-Time-Poison\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9012",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9013",
+      "type": "connection",
+      "label": "\"PC=Side-Channel\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9013",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9014",
+      "type": "connection",
+      "label": "\"PC=FineTune-Oracle\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9014",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9015",
+      "type": "connection",
+      "label": "\"PC=Privileged-Prompt\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9000",
+      "target": "n9015",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9001",
+      "target": "n9030",
+      "type": "connection",
+      "label": "\"Visibility=User-Text\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9001",
+      "target": "n9030",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9001",
+      "target": "n9020",
+      "type": "defence",
+      "label": "\"Defence=Sanitize/Block\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9001",
+      "target": "n9020",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9002",
+      "target": "n9030",
+      "type": "connection",
+      "label": "\"Visibility=User-Text\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9002",
+      "target": "n9030",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9002",
+      "target": "n9025",
+      "type": "defence",
+      "label": "\"Defence=RedTeam-Test\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9002",
+      "target": "n9025",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9003",
+      "target": "n9032",
+      "type": "connection",
+      "label": "\"Access=Black-box\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9003",
+      "target": "n9032",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9003",
+      "target": "n9024",
+      "type": "defence",
+      "label": "\"Defence=Watermark/Trace\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9003",
+      "target": "n9024",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9004",
+      "target": "n9033",
+      "type": "connection",
+      "label": "\"Access=White-box/Fine-tune\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9004",
+      "target": "n9033",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9006",
+      "target": "n9031",
+      "type": "connection",
+      "label": "\"Visibility=Context\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9006",
+      "target": "n9031",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9006",
+      "target": "n9021",
+      "type": "defence",
+      "label": "\"Defence=Output-Filtering\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9006",
+      "target": "n9021",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9007",
+      "target": "n9023",
+      "type": "defence",
+      "label": "\"Defence=Query-Controls\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9007",
+      "target": "n9023",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9012",
+      "target": "n9023",
+      "type": "defence",
+      "label": "\"Defence=Rate-Limit-Ingest\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9012",
+      "target": "n9023",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9014",
+      "target": "n9023",
+      "type": "defence",
+      "label": "\"Defence=FineTune-QoS-Limits\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9014",
+      "target": "n9023",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9015",
+      "target": "n9020",
+      "type": "defence",
+      "label": "\"Defence=Mask-System-Prompts\"",
+      "attributes": {}
+    },
+    {
+      "source": "n9015",
+      "target": "n9020",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9300",
+      "target": "n9301",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9300",
+      "target": "n9302",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9300",
+      "target": "n9303",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9300",
+      "target": "n9304",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9301",
+      "target": "n9310",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9302",
+      "target": "n9311",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9303",
+      "target": "n9312",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9304",
+      "target": "n9310",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9400",
+      "target": "n9401",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9400",
+      "target": "n9402",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9400",
+      "target": "n9403",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9400",
+      "target": "n9404",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9401",
+      "target": "n9410",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9402",
+      "target": "n9411",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9403",
+      "target": "n9410",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9404",
+      "target": "n9412",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9200",
+      "target": "n9201",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9200",
+      "target": "n9202",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9200",
+      "target": "n9203",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9200",
+      "target": "n9204",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9200",
+      "target": "n9205",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9201",
+      "target": "n9211",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9202",
+      "target": "n9211",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9203",
+      "target": "n9210",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9203",
+      "target": "n9212",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9204",
+      "target": "n9213",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9205",
+      "target": "n9211",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9500",
+      "target": "n9501",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9500",
+      "target": "n9502",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9501",
+      "target": "n9510",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9502",
+      "target": "n9511",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9600",
+      "target": "n9601",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9600",
+      "target": "n9602",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9600",
+      "target": "n9603",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9601",
+      "target": "n9610",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9602",
+      "target": "n9611",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n9603",
+      "target": "n9612",
+      "type": "connection",
+      "label": "",
+      "attributes": {}
+    },
+    {
+      "source": "n934376",
+      "target": "n391888",
+      "type": "connection",
+      "label": "\"Perturbation Search=Lagrangian Gradient Descent\"",
+      "attributes": {}
+    },
+    {
+      "source": "n401703",
+      "target": "n244022",
+      "type": "connection",
+      "label": "\"Perturbation Search=Gradient-based perturbation\"",
+      "attributes": {}
+    }
+  ]
+}

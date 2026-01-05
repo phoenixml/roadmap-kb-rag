@@ -1,0 +1,5 @@
+url: ${QDRANT_URL}
+#api_key: ${QDRANT_API_KEY}
+collection: docs
+vector_size: 384
+distance: Cosine

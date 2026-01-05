@@ -1,0 +1,9 @@
+%AttackName: Jacobian-based Saliency Map Attack (JSMA)
+
+%Input:A malicious data point from the power system ICS dataset, represented as a feature vector (e.g., [0.7645, 0.8710, 0.1756, 0.0261, 0.5027, ...]).
+%Output:An adversarial sample where selected features have been perturbed (e.g., [0.7650, 0.8710, 0.1756, 0.0261, 0.5030, ...]), causing the machine learning-based IDS to misclassify the malicious input as benign.
+%Formula:1. Compute the Jacobian matrix of the model F with respect to input X: J_F = ∂F(X)/∂X
+2. Use the Jacobian to construct a saliency map identifying features most influential for classification.
+3. Iteratively perturb a percentage θ of selected features by an amount γ: X* = X + δ, where δ is nonzero only for selected features.
+4. Repeat until the sample is misclassified or a maximum perturbation is reached.
+%Explanation:The JSMA attack generates adversarial samples by identifying and perturbing the most influential features of an input, as determined by the model's Jacobian. By carefully modifying a small subset of features, the attacker can cause a machine learning-based intrusion detection system to misclassify malicious data as benign, thereby bypassing security controls. The attack is effective even in grey-box settings where the attacker knows the features but not the model parameters, leveraging the transferability of adversarial examples.

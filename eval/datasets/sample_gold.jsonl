@@ -1,0 +1,1 @@
+{"id":"q1","question":"What is data poisoning?","answer":"Data poisoning is a training-time attack where an adversary injects or modifies training data to induce malicious behavior or degrade performance.","evidence_chunks":["sample::chunk0001"],"paths":[]}

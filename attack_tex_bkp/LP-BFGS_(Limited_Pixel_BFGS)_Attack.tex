@@ -1,0 +1,17 @@
+%AttackName: LP-BFGS (Limited Pixel BFGS) Attack
+
+%Input:Original image x, true label y, target model g, perturbation budget k (number of pixels to perturb), loss function L, and hyperparameters (e.g., c, κ, iterations).
+%Output:Adversarial image x̂ that differs from x in at most k pixels (selected by top-k Integrated Gradient attribution), such that the model's prediction on x̂ is incorrect (untargeted) or matches a target label (targeted).
+%Formula:1. Select top-k pixels by Integrated Gradient (IG):
+   IG_i(x) = (x_i - x'_i) * ∫₀¹ ∂F(x' + α(x - x'))/∂x_i dα
+2. Let x = A x̃ + x̄, where x̃ ∈ ℝ^k are the selected pixels, x̄ are immutable pixels, and A is a position map.
+3. Change of variable: w̃ = atanh(2 x̃ - 1)
+4. Optimize:
+   ŵ = argmin_{w̃} L(R(w̃), x, y)
+   where R(w̃) = A (0.5 * (tanh(w̃) + 1)) + x̄
+5. Use BFGS to update w̃:
+   w̃_{k+1} = w̃_k + α_k d_k,  d_k = -H_k ∇_{w̃}L_k
+   H_{k+1} = (I - ρ_k s_k y_k^T) H_k (I - ρ_k y_k s_k^T) + ρ_k s_k s_k^T
+   with s_k = w̃_{k+1} - w̃_k, y_k = ∇L_{k+1} - ∇L_k, ρ_k = 1/(y_k^T s_k)
+6. Reconstruct adversarial image: x̂ = R(ŵ)
+%Explanation:The LP-BFGS attack is a white-box adversarial attack that crafts sparse perturbations by only modifying a limited number (k) of pixels in the input image. It first uses the Integrated Gradient method to select the k most influential pixels (with highest attribution scores) for the model's prediction. The attack then formulates the adversarial example search as an unconstrained optimization problem over these k pixels, using a change of variables to ensure pixel values remain valid. The BFGS quasi-Newton method is used to efficiently optimize the loss with respect to these pixels, leveraging second-order information (approximate Hessian) for faster and more accurate convergence. The result is an adversarial image that fools the model by changing only a small, carefully chosen subset of pixels.

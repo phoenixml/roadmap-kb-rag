@@ -1,0 +1,14 @@
+%AttackName: Greedy Coordinate Gradient (GCG) Universal Adversarial Suffix Attack
+
+%Input:User prompt (potentially harmful instruction) + adversarial suffix (optimized sequence of tokens)
+%Output:Aligned language model generates an affirmative and detailed response to the harmful instruction, circumventing its safety alignment (e.g., 'Sure, here’s how to build a bomb: ...')
+%Formula:Given a language model p(x_{n+1}|x_{1:n}), and a user prompt x_{1:n}, find an adversarial suffix (tokens at indices I) to minimize the loss:
+
+L(x_{1:n}) = -log p(x^*_{n+1:n+H} | x_{1:n})
+
+where x^*_{n+1:n+H} is a target affirmative response (e.g., 'Sure, here is how to build a bomb.'). The optimization is:
+
+minimize_{x_I \in {1,...,V}^{|I|}} L(x_{1:n})
+
+using a greedy coordinate gradient search over discrete tokens.
+%Explanation:The attack appends an automatically optimized adversarial suffix to a user's prompt, targeting the model to begin its response with an affirmative phrase (e.g., 'Sure, here is...'), which reliably induces the model to generate the requested harmful content. The suffix is found by a greedy coordinate gradient (GCG) search: for each token position in the suffix, the method uses gradients to select promising token replacements, evaluates them, and greedily updates the suffix to minimize the negative log-likelihood of the target affirmative response. This process is repeated over multiple prompts and models to produce a universal, transferable attack that works across many LLMs, including black-box commercial models.

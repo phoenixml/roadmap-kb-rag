@@ -1,0 +1,32 @@
+%AttackName: A-DeepWordBug-7
+
+%Input:
+Let \( x \) be the original input text, \( y \) be the true label, and \( f_{\theta} \) be the target model. The DeepWordBug attack aims to generate adversarial examples for natural language processing models by making small, character-level modifications to the input text.
+
+%Output:
+The output of the DeepWordBug attack is a modified text input \( x^* \) that is intended to mislead the model while maintaining readability.
+
+%Formula:
+The DeepWordBug adversarial attack can be formulated as follows:
+1. Initialize the input text and true label:
+   $
+   (x, y).
+   $
+2. Define a set of possible character-level modifications \( \mathcal{M} \), such as character substitutions, insertions, or deletions.
+3. For each character \( c \) in the input \( x \):
+   - Apply a modification \( m(c) \) from \( \mathcal{M} \):
+   $
+   x' = x \text{ with } m(c) \text{ applied at position } i.
+   $
+   - Evaluate the model's prediction:
+   $
+   \hat{y} = f_{\theta}(x').
+   $
+   - If \( \hat{y} \neq y \), then \( x' \) is a candidate adversarial example.
+4. The goal is to find:
+   $
+   x^* = \arg\min_{x'} \text{distance}(x, x') \quad \text{subject to } f_{\theta}(x') \neq y.
+   $
+
+%Explanation:
+The DeepWordBug adversarial attack focuses on generating adversarial examples for text classification models by making small, character-level modifications to the input text. The attack operates under the assumption that even minor changes to the text can lead to significant changes in the model's predictions. By systematically applying character-level modifications such as substitutions, insertions, or deletions, the attack seeks to find a modified version of the input text that causes the model to misclassify it while keeping the changes minimal and preserving readability. The resulting adversarial example \( x^* \) demonstrates the vulnerability of natural language processing models to subtle perturbations in the input data.

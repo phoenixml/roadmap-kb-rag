@@ -1,0 +1,8 @@
+backend: ${LLM_BACKEND}   # openai | ollama
+openai:
+  model: gpt-4.1
+  temperature: 0.2
+ollama:
+  base_url: ${OLLAMA_BASE_URL}
+  model: ${OLLAMA_MODEL}
+  temperature: 0.2

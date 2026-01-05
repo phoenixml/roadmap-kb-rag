@@ -1,0 +1,1 @@
+{"id":"q1","answer":"Data poisoning is a training-time attack that injects or manipulates training data to influence the model.","evidence_chunks":["sample::chunk0001"],"paths":["(Entity{name:'Data Poisoning'})-[:RELATED_TO]->(Entity{name:'Training Data'})"]}

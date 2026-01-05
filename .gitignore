@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.env.*
+venv/
+.venv/
+
+# Data / KB artifacts
+data/qdrant/
+data/neo4j/
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
