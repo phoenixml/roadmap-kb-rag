@@ -2,7 +2,7 @@
 
 
 
-# RoadMap+ — Adversarial ML Knowledge Graph & RAG
+# RoadMap+ - Adversarial ML Knowledge Graph & RAG
 
 ## Overview
 RoadMap+ is a research-grade pipeline for extracting, structuring, and reasoning over
