@@ -75,7 +75,7 @@ An independent evaluation benchmark and runner are included. ATLAS-QA is derived
 from MITRE ATLAS v5.6.0 (not from the roadmap KB), so it provides an uncontaminated
 test of roadmap-grounded retrieval.
 
-**Dataset:** `outputs/atlas_qa.json` — 120 questions, 24 each across five types
+**Dataset:** `outputs/atlas_qa.json` - 120 questions, 24 each across five types
 (visibility, defence, family, perturbation_search, math), generated from 24 MITRE
 ATLAS v5.6.0 techniques.
 
@@ -94,9 +94,9 @@ export ANTHROPIC_API_KEY="<YOUR_ANTHROPIC_API_KEY>"
 python eval/run_qa_evaluation_atlas.py
 
 **Outputs:**
-- `outputs/qa_eval_results_atlas.json` — per-question predictions and scores
-- `outputs/qa_eval_summary_atlas.csv`  — per-model, per-condition summary
-  (Fuzzy F1, Semantic Similarity, LLM Judge 0–3, Exact Match)
+- `outputs/qa_eval_results_atlas.json` - per-question predictions and scores
+- `outputs/qa_eval_summary_atlas.csv`  - per-model, per-condition summary
+  (Fuzzy F1, Semantic Similarity, LLM Judge 0-3, Exact Match)
 
 Requires `openai`, `anthropic`, and `sentence-transformers`. The base and expanded
 roadmap KBs used as RAG context are `outputs/roadmap_qa_data.json` and
