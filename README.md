@@ -31,11 +31,11 @@ python -m scripts.ingest_kb --kb_path ./data/kb/Unified_Attack_Knowledge_Base.js
 
 ## Run first:
 export QDRANT_URL=http://localhost:6333
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY="<YOUR_OPENAI_API_KEY>"
 
 export NEO4J_URI="neo4j+s://139a711a.databases.neo4j.io"
 export NEO4J_USER="neo4j"
-export NEO4J_PASSWORD="jkSydLlN3clvA7hw33SPy7cGLoQqomjcncfTKAF5Ynw"
+export NEO4J_PASSWORD="<YOUR_NEO4J_PASSWORD>"
 
 A- To Initiate the KB run which will create the KB in Qadrant Store:
 python -m scripts.init_kb_from_json --input DPATex-1.0.json
@@ -68,4 +68,37 @@ F- To Do:
 ⦁	Same for Pdf_to_Process we need to move them to a new folder to ensure it is always empty after processing.
 
 ⦁	To only to KB  new processed pdf files we need to have a new KB json t have only the new processed files this is important.
+
+## Reproducing the ATLAS-QA RAG Experiment (Paper Table 2)
+
+An independent evaluation benchmark and runner are included. ATLAS-QA is derived
+from MITRE ATLAS v5.6.0 (not from the roadmap KB), so it provides an uncontaminated
+test of roadmap-grounded retrieval.
+
+**Dataset:** `outputs/atlas_qa.json` — 120 questions, 24 each across five types
+(visibility, defence, family, perturbation_search, math), generated from 24 MITRE
+ATLAS v5.6.0 techniques.
+
+1. (Optional) regenerate the benchmark:
+
+python scripts/generate_qa_atlas.py
+
+2. Provide API keys via environment variables (never hard-code them):
+
+export OPENAI_API_KEY="<YOUR_OPENAI_API_KEY>"
+export ANTHROPIC_API_KEY="<YOUR_ANTHROPIC_API_KEY>"
+
+3. Run the RAG evaluation across the three conditions
+   (no_context / base_roadmap / roadmap_plus):
+
+python eval/run_qa_evaluation_atlas.py
+
+**Outputs:**
+- `outputs/qa_eval_results_atlas.json` — per-question predictions and scores
+- `outputs/qa_eval_summary_atlas.csv`  — per-model, per-condition summary
+  (Fuzzy F1, Semantic Similarity, LLM Judge 0–3, Exact Match)
+
+Requires `openai`, `anthropic`, and `sentence-transformers`. The base and expanded
+roadmap KBs used as RAG context are `outputs/roadmap_qa_data.json` and
+`outputs/roadmap_qa_data_plus.json`.
 
