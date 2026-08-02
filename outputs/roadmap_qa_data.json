@@ -1,0 +1,604 @@
+[
+  {
+    "family": "CNN",
+    "attack": "JPEG",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Based",
+    "defence": "A-JPEG/ PAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "StAdv",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Based",
+    "defence": "A-StAdv/ PAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "ReColorAdv",
+    "visibility": "Visible",
+    "perturbation_search": "NA",
+    "defence": "A-ReCAdv/ PAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "LPA",
+    "visibility": "Visible",
+    "perturbation_search": "NA",
+    "defence": "A-LPA/ PAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "Fast-LPA",
+    "visibility": "Visible",
+    "perturbation_search": "NA",
+    "defence": "A-Fast-LPA/ PAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "FGSM",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Momentum Fast Iterative",
+    "defence": "M-FGSM/ Mustafa"
+  },
+  {
+    "family": "CNN",
+    "attack": "BIM",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Momentum Iterative",
+    "defence": "M-BIM/ Mustafa"
+  },
+  {
+    "family": "CNN",
+    "attack": "PGD",
+    "visibility": "Visible",
+    "perturbation_search": "Non Fast",
+    "defence": "M-PGD/ BAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "FrogsAttack",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Based Frogs",
+    "defence": "A-FrogsAttacks/ Data Sanitizing"
+  },
+  {
+    "family": "CNN",
+    "attack": "CollisionAttack",
+    "visibility": "Visible",
+    "perturbation_search": "NA",
+    "defence": "A-Collision Attack/ Data Sanitizing"
+  },
+  {
+    "family": "CNN",
+    "attack": "One Shot Kill",
+    "visibility": "Visible",
+    "perturbation_search": "NA",
+    "defence": "A-One Shot-kill/ DS"
+  },
+  {
+    "family": "CNN",
+    "attack": "APGD",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random Search",
+    "defence": "A-APGD/ Pixel Defend"
+  },
+  {
+    "family": "CNN",
+    "attack": "ScoreBased",
+    "visibility": "Visible",
+    "perturbation_search": "Salient Search, Random",
+    "defence": "A-SB/Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "JSMA",
+    "visibility": "Visible",
+    "perturbation_search": "Constrained Based",
+    "defence": "M-JSMA/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "C&W",
+    "visibility": "Visible",
+    "perturbation_search": "Unconstrained Based",
+    "defence": "M-C&W/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "ZOO",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Approximation",
+    "defence": "M-ZOO/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "Query Mechanism",
+    "visibility": "Visible",
+    "perturbation_search": "Query Reduction",
+    "defence": "A-QM/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "UAP",
+    "visibility": "Perceptual",
+    "perturbation_search": "Minimal perturbation to decision boundary",
+    "defence": "A-UAP/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "AutoZoom",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random Vector Based Gradient Estimation",
+    "defence": "A-AutoZoom/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "GenAttack",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random noise in the range (-δmax,δmax)",
+    "defence": "A-GenAttack/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "Embedding COsine",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random noise in the range (-δmax,δmax)",
+    "defence": "A-ECO/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "AAtack",
+    "visibility": "Visible",
+    "perturbation_search": "Adaptive direction initialization",
+    "defence": "A-AAttack/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "BayesOpt",
+    "visibility": "Visible",
+    "perturbation_search": "search dimensionality reduction",
+    "defence": "A-BayesOpt/ Stocahstic Element, Shardped Edges"
+  },
+  {
+    "family": "CNN",
+    "attack": "NES",
+    "visibility": "Visible",
+    "perturbation_search": "Latent Space NES search and Gradient Based",
+    "defence": "A-NES/Augmented Adv Training"
+  },
+  {
+    "family": "CNN",
+    "attack": "Transfer-NES-PGD",
+    "visibility": "Visible",
+    "perturbation_search": "Latent Space NES search and Gradient Based",
+    "defence": "A-T-NES-PGD/Augmented Adv Training"
+  },
+  {
+    "family": "CNN",
+    "attack": "Transfer-NES-FGSM",
+    "visibility": "Visible",
+    "perturbation_search": "Latent Space NES search and Gradient Based",
+    "defence": "A-T-NES-FGSM/Augmented Adv Training"
+  },
+  {
+    "family": "CNN",
+    "attack": "P-RGF",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random search",
+    "defence": "A-P-RGF/AT"
+  },
+  {
+    "family": "CNN",
+    "attack": "Trans-P-RGF",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random search",
+    "defence": "A-Trans-P-RGF/AT"
+  },
+  {
+    "family": "CNN",
+    "attack": "TREMBA",
+    "visibility": "Visible",
+    "perturbation_search": "Random search",
+    "defence": "A-TREMBA/ AT"
+  },
+  {
+    "family": "CNN",
+    "attack": "NTM-NPTM",
+    "visibility": "Visible",
+    "perturbation_search": "L∞ , L2 , JPEG-L∞ , StAdv, ReColorAdv",
+    "defence": "M-NTM/ PAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "Watermarking",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Based Watermarking",
+    "defence": "A-Watermarking/ Data Sanitizing"
+  },
+  {
+    "family": "CNN",
+    "attack": "Gradient Based - Data Augmentation",
+    "visibility": "Visible",
+    "perturbation_search": "Non Fast",
+    "defence": "M-PGD-NonFast/ Pixel Defend"
+  },
+  {
+    "family": "CNN",
+    "attack": "TransferBased-NES",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Gradient Based",
+    "defence": "A-TB-NES/ Randomization"
+  },
+  {
+    "family": "CNN",
+    "attack": "Gaussian Noise",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Gradient Search",
+    "defence": "PC=Gaussian Noise"
+  },
+  {
+    "family": "CNN",
+    "attack": "Projected Gradient Descent",
+    "visibility": "Visible",
+    "perturbation_search": "Non Fast",
+    "defence": "M-M-PGD/ BAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "Gradient Descent",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Gradient Based",
+    "defence": "M-Gradient Descent/ Adversarial Retraining"
+  },
+  {
+    "family": "CNN",
+    "attack": "JPEG-Lp",
+    "visibility": "Visible",
+    "perturbation_search": "Additive + Functional (Assembly)",
+    "defence": "M-JPEG-Lp/ JPEG Compression"
+  },
+  {
+    "family": "CNN",
+    "attack": "APGD-AT-Randomization",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random Search (Assembly)",
+    "defence": "M-APGD-AT/ Randomization"
+  },
+  {
+    "family": "CNN",
+    "attack": "APGD-AT-Logit Squeezing",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Random Search",
+    "defence": "M-APGD-AT/ Logit Squeezing"
+  },
+  {
+    "family": "CNN",
+    "attack": "Momentum-Mustafa",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Momentum Search",
+    "defence": "M-Momentum/ Mustafa"
+  },
+  {
+    "family": "CNN",
+    "attack": "Momentum Iterative-Super resolution",
+    "visibility": "Visible",
+    "perturbation_search": "Momentum Iterative",
+    "defence": "M-Momentum Iterative/ Super Resolution"
+  },
+  {
+    "family": "CNN",
+    "attack": "Momentum-Denoisining",
+    "visibility": "Visible",
+    "perturbation_search": "Momentum Iterative",
+    "defence": "M-Momentum/ Image Denoisining"
+  },
+  {
+    "family": "CNN",
+    "attack": "Discretized Inputs",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Gradient Based",
+    "defence": "M-Discretized Inputs/ OneHot"
+  },
+  {
+    "family": "CNN",
+    "attack": "Gradient Based",
+    "visibility": "Visible(PGDL∞), Optimal perturbation(PGDL2 ,PGDL1)",
+    "perturbation_search": "Gradient Based",
+    "defence": "M-Gradient Based / BAT"
+  },
+  {
+    "family": "CNN",
+    "attack": "PGD Fast",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Fast Search",
+    "defence": "M-PGD Fast/ Data Augmentation"
+  },
+  {
+    "family": "CNN",
+    "attack": "M-Gradient Based",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Momentum Iterative",
+    "defence": "M-MGA/ Vector Defence"
+  },
+  {
+    "family": "CNN",
+    "attack": "IGB-Adam",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Gradient Based",
+    "defence": "A-IGB-Adam/ Vector Defence"
+  },
+  {
+    "family": "CNN",
+    "attack": "Image Scaling",
+    "visibility": "Visible",
+    "perturbation_search": "NA",
+    "defence": "A-Image Scaling/ RobustScaling"
+  },
+  {
+    "family": "CNN",
+    "attack": "M-PGD",
+    "visibility": "Optimal perturbation",
+    "perturbation_search": "Gradient Based",
+    "defence": "Gradient Based/ Vector Defence"
+  },
+  {
+    "family": "CNN",
+    "attack": "DeepFool",
+    "visibility": "Visible",
+    "perturbation_search": "Closet decision boundary",
+    "defence": "A-DeepFool/ Adversarial Retraining"
+  },
+  {
+    "family": "CNN",
+    "attack": "Cassidi",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Sign Method",
+    "defence": "A-Cassidi/ Adversarial Retraining"
+  },
+  {
+    "family": "CNN",
+    "attack": "NewtonFool",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Descent",
+    "defence": "A-NewtonFool/ Adversarial Retraining"
+  },
+  {
+    "family": "CNN",
+    "attack": "TUAP",
+    "visibility": "Visible",
+    "perturbation_search": "TUAP",
+    "defence": "A-TUAP/ Adversarial Retraining"
+  },
+  {
+    "family": "CNN",
+    "attack": "DFO",
+    "visibility": "Visible",
+    "perturbation_search": "DFOer restrictions",
+    "defence": "A-DFO/ Adversarial Retraining"
+  },
+  {
+    "family": "CNN",
+    "attack": "Salt-Pepper",
+    "visibility": "Visible, Optimal perturbation",
+    "perturbation_search": "NA",
+    "defence": "A-Salt-Pepper/ Filter"
+  },
+  {
+    "family": "CNN",
+    "attack": "cADV",
+    "visibility": "Visible",
+    "perturbation_search": "Hint and mask",
+    "defence": "A-cADV/ JPEG Compression"
+  },
+  {
+    "family": "CNN",
+    "attack": "AtADV",
+    "visibility": "Visible",
+    "perturbation_search": "Color Space nearest target Ts",
+    "defence": "A-AtADV/ JPEG Compression"
+  },
+  {
+    "family": "CNN",
+    "attack": "GAN",
+    "visibility": "Visible",
+    "perturbation_search": "Gan Based (Assembly)",
+    "defence": "A-Data Augmentation Attack/Adversarial Training"
+  },
+  {
+    "family": "CNN",
+    "attack": "Fast Minimum-norm (FMN) Attack",
+    "visibility": "Optimal/Perfectly Visible",
+    "perturbation_search": "Lagrangian Gradient Descent",
+    "defence": "Adversarial Training"
+  },
+  {
+    "family": "SVM",
+    "attack": "Attention-Based_Jailbreak_Attack_(ABA)",
+    "visibility": "High",
+    "perturbation_search": "Adversarial Perturbation",
+    "defence": "Attention Pattern Monitoring / Robust Prompt Parsing / Adversarial Training / Sensitive Content Classifiers / Ensemble Safety Layers / Input Structure Analysis"
+  },
+  {
+    "family": "Linear Regression",
+    "attack": "LinBP",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "LinBP/Pixel Defend"
+  },
+  {
+    "family": "Hierarchical",
+    "attack": "L∞-bounded",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "M-L∞-bounded/TRADES"
+  },
+  {
+    "family": "SVR/GPR",
+    "attack": "SVR poisoning",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "SVR,GPR/DBSCAN"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Vanilla Universal-UAP",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Dominant Feature-UAP",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-DF-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "SV JSMA-UAP",
+    "visibility": "Visible",
+    "perturbation_search": "Gradient Based",
+    "defence": "A-SV JSMA-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "GAP-UAP",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-GAP-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Cos-UAP",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-Cos-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "FFF",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-FFF/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "AAA",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-AAA/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Class Discriminative UAP",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-GD-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Prior Driven Uncertinity Approximation",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-PD-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Netowrk For Adversary Generation",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-NAG/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "DF-COCO-UAP",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-DF-COCO-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Cos-Jigsaw-UAP",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-Cos-Jigsaw-UAP/Adversarial Training"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "M-Ps LHC Adversarial Attack",
+    "visibility": "Targeted",
+    "perturbation_search": "Gradient-based perturbation",
+    "defence": "A-M-Ps Lhc Adversarial Attack / Adversarial Training / Gradient Masking / Input Preprocessing"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "TrojDiff_Backdoor_Attack",
+    "visibility": "High",
+    "perturbation_search": "Adversarial Perturbation",
+    "defence": "Diffusion Process Consistency Checks / Trigger Image Detection / Backdoor Input Filtering / Model Fine / Reverse Engineering and Visualization / Diffusion Step Randomization / Ensemble Defenses"
+  },
+  {
+    "family": "Black-Box/Unknown",
+    "attack": "Frequency-based_Removal_Attack",
+    "visibility": "High",
+    "perturbation_search": "Adversarial Perturbation",
+    "defence": "Frequency / Spread / Robustness verification / Ensemble watermarking / Model fingerprinting via activation patterns / Adversarial training / Integrity verification"
+  },
+  {
+    "family": "K-Means",
+    "attack": "Spill Over",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "Spill Over Attack/Preprocessing"
+  },
+  {
+    "family": "K-Means",
+    "attack": "NonConvex Optimization",
+    "visibility": "Perceptual",
+    "perturbation_search": "Gradient Search Lipschitz",
+    "defence": "NonConvex Optimization/Non-convex Guarantee"
+  },
+  {
+    "family": "GM",
+    "attack": "Poisson-Gaussian Noise",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "M-Gaussian Noise/ Preprocessing, Certified Robustness"
+  },
+  {
+    "family": "DBSCAN",
+    "attack": "UBAC",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "M-DBSCAN/DBSCAN Preprocessing Sanitizing"
+  },
+  {
+    "family": "CA",
+    "attack": "IPA-Stealthy-PA",
+    "visibility": "Perceptual",
+    "perturbation_search": "Random",
+    "defence": "A-Weak Long Attacks/DBSCAN Preprocessing Sanitizing"
+  },
+  {
+    "family": "CA",
+    "attack": "FNR",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-Weak Long Attacks/DBSCAN Preprocessing Sanitizing"
+  },
+  {
+    "family": "CA",
+    "attack": "FNR-Boiling Frog-PA",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-Boiling Frog Attacks/DBSCAN Preprocessing Sanitizing"
+  },
+  {
+    "family": "CA",
+    "attack": "IPA",
+    "visibility": "Visible",
+    "perturbation_search": "Random",
+    "defence": "A-IPA Stealthy Attacks/DBSCAN Preprocessing Sanitizing"
+  }
+]

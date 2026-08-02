@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "atlas_AML.T0043.000_visibility_000",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.000",
+    "type": "visibility",
+    "family": "CNN",
+    "attack": "White-Box Optimization (Craft Adversarial Data)",
+    "question": "Is the White-Box Optimization (Craft Adversarial Data) technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0043.000_defence_001",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.000",
+    "type": "defence",
+    "family": "CNN",
+    "attack": "White-Box Optimization (Craft Adversarial Data)",
+    "question": "What specific named defence or mitigation can be applied to counter White-Box Optimization (Craft Adversarial Data) attacks against image classifiers?",
+    "answer": "Randomised Smoothing (Cohen et al.)"
+  },
+  {
+    "id": "atlas_AML.T0043.000_family_002",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.000",
+    "type": "family",
+    "family": "CNN",
+    "attack": "White-Box Optimization (Craft Adversarial Data)",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the White-Box Optimization (Craft Adversarial Data) technique?",
+    "answer": "Convolutional Neural Networks (CNNs)"
+  },
+  {
+    "id": "atlas_AML.T0043.000_perturbation_search_003",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.000",
+    "type": "perturbation_search",
+    "family": "CNN",
+    "attack": "White-Box Optimization (Craft Adversarial Data)",
+    "question": "What optimisation or search strategy does White-Box Optimization (Craft Adversarial Data) use to achieve its goal?",
+    "answer": "It uses gradient-based optimisation strategies such as PGD (Projected Gradient Descent), FGSM (Fast Gradient Sign Method), and C&W (Carlini & Wagner) L2 optimisation to craft adversarial examples."
+  },
+  {
+    "id": "atlas_AML.T0043.000_math_004",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.000",
+    "type": "math",
+    "family": "CNN",
+    "attack": "White-Box Optimization (Craft Adversarial Data)",
+    "question": "What is the typical mathematical objective used in white-box adversarial attacks like FGSM and PGD, and which norm constraints are commonly applied to the perturbations?",
+    "answer": "The objective is to maximize the model's loss with respect to the input, subject to a constraint on the perturbation's size, typically using the L-infinity (‖·‖∞) or L2 (‖·‖2) norm to ensure the adversarial example remains close to the original input."
+  },
+  {
+    "id": "atlas_AML.T0043.004_visibility_005",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.004",
+    "type": "visibility",
+    "family": "CNN",
+    "attack": "Insert Backdoor Trigger (Craft Adversarial Data)",
+    "question": "Is the Insert Backdoor Trigger (Craft Adversarial Data) technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0043.004_defence_006",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.004",
+    "type": "defence",
+    "family": "CNN",
+    "attack": "Insert Backdoor Trigger (Craft Adversarial Data)",
+    "question": "What specific named defence can be used to mitigate the Insert Backdoor Trigger (Craft Adversarial Data) technique in machine learning systems?",
+    "answer": "Neural Cleanse"
+  },
+  {
+    "id": "atlas_AML.T0043.004_family_007",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.004",
+    "type": "family",
+    "family": "CNN",
+    "attack": "Insert Backdoor Trigger (Craft Adversarial Data)",
+    "question": "What type or family of machine learning model is primarily targeted by the Insert Backdoor Trigger (Craft Adversarial Data) technique?",
+    "answer": "Convolutional Neural Networks (CNNs)"
+  },
+  {
+    "id": "atlas_AML.T0043.004_perturbation_search_008",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.004",
+    "type": "perturbation_search",
+    "family": "CNN",
+    "attack": "Insert Backdoor Trigger (Craft Adversarial Data)",
+    "question": "What optimisation or search strategy does Insert Backdoor Trigger (Craft Adversarial Data) use to achieve its goal?",
+    "answer": "Gradient-Based PGD/FGSM for Trigger Optimisation"
+  },
+  {
+    "id": "atlas_AML.T0043.004_math_009",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.004",
+    "type": "math",
+    "family": "CNN",
+    "attack": "Insert Backdoor Trigger (Craft Adversarial Data)",
+    "question": "What is the core mathematical objective optimized when inserting a backdoor trigger into data for a CNN, and how is it typically formulated?",
+    "answer": "The core mathematical objective is to minimize the cross-entropy loss on samples containing the trigger, ensuring that the CNN predicts the adversary-chosen label whenever the trigger is present. This is typically formulated as minimizing \\( L = -\\sum_{i} y_i \\log(f(x_i + \\delta)) \\), where \\( x_i \\) is the input, \\( \\delta \\) is the trigger, \\( y_i \\) is the target (adversary-chosen) label, and \\( f \\) is the model's output."
+  },
+  {
+    "id": "atlas_AML.T0015_visibility_010",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0015",
+    "type": "visibility",
+    "family": "CNN",
+    "attack": "Evade AI Model",
+    "question": "Is the Evade AI Model technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0015_defence_011",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0015",
+    "type": "defence",
+    "family": "CNN",
+    "attack": "Evade AI Model",
+    "question": "What specific named defence or mitigation can be applied to counter the MITRE ATLAS technique Evade AI Model (AML.T0015)?",
+    "answer": "Randomised Smoothing (Cohen et al.)"
+  },
+  {
+    "id": "atlas_AML.T0015_family_012",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0015",
+    "type": "family",
+    "family": "CNN",
+    "attack": "Evade AI Model",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Evade AI Model (AML.T0015) technique?",
+    "answer": "Convolutional Neural Networks (CNNs)"
+  },
+  {
+    "id": "atlas_AML.T0015_perturbation_search_013",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0015",
+    "type": "perturbation_search",
+    "family": "CNN",
+    "attack": "Evade AI Model",
+    "question": "What optimisation or search strategy does the Evade AI Model technique use to achieve its goal of fooling AI models?",
+    "answer": "It uses gradient-based methods such as Projected Gradient Descent (PGD) and Fast Gradient Sign Method (FGSM) to craft adversarial inputs."
+  },
+  {
+    "id": "atlas_AML.T0015_math_014",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0015",
+    "type": "math",
+    "family": "CNN",
+    "attack": "Evade AI Model",
+    "question": "What is the core mathematical objective and norm typically used when crafting adversarial examples to evade AI models, as described in the Evade AI Model (AML.T0015) technique?",
+    "answer": "The core objective is to maximise the model's misclassification probability while keeping the perturbation to the input bounded, most commonly using the L-infinity (L-inf) norm, which constrains the maximum change to any individual input feature."
+  },
+  {
+    "id": "atlas_AML.T0043.001_visibility_015",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.001",
+    "type": "visibility",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Optimization (Craft Adversarial Data)",
+    "question": "Is the Black-Box Optimization (Craft Adversarial Data) technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0043.001_defence_016",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.001",
+    "type": "defence",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Optimization (Craft Adversarial Data)",
+    "question": "What specific named defence or mitigation can be applied to counter Black-Box Optimization (Craft Adversarial Data) attacks in a black-box setting?",
+    "answer": "PRADA (model stealing defence)"
+  },
+  {
+    "id": "atlas_AML.T0043.001_family_017",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.001",
+    "type": "family",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Optimization (Craft Adversarial Data)",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by Black-Box Optimization (Craft Adversarial Data) attacks?",
+    "answer": "Black-box or unknown machine learning models, where the adversary has no access to the model's internal architecture or parameters and can only interact with the model via API queries."
+  },
+  {
+    "id": "atlas_AML.T0043.001_perturbation_search_018",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.001",
+    "type": "perturbation_search",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Optimization (Craft Adversarial Data)",
+    "question": "What optimisation or search strategy does Black-Box Optimization (Craft Adversarial Data) use to achieve its goal?",
+    "answer": "It uses finite-difference estimation to optimise adversarial examples."
+  },
+  {
+    "id": "atlas_AML.T0043.001_math_019",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.001",
+    "type": "math",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Optimization (Craft Adversarial Data)",
+    "question": "What is the core mathematical objective typically minimized when crafting adversarial examples via black-box optimization, and which norm is commonly used to measure the perturbation?",
+    "answer": "The core objective is to minimize the L-p norm (often L2 or L-infinity) of the perturbation added to the input, subject to the constraint that the perturbed input causes the model to misclassify, with the gradient estimated through finite differences due to lack of model access."
+  },
+  {
+    "id": "atlas_AML.T0043.002_visibility_020",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.002",
+    "type": "visibility",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Transfer (Craft Adversarial Data)",
+    "question": "Is the Black-Box Transfer (Craft Adversarial Data) technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0043.002_defence_021",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.002",
+    "type": "defence",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Transfer (Craft Adversarial Data)",
+    "question": "What specific named defence or mitigation can be applied to counter Black-Box Transfer (Craft Adversarial Data) attacks in machine learning systems?",
+    "answer": "Ensemble Adversarial Training (Tramèr et al.)"
+  },
+  {
+    "id": "atlas_AML.T0043.002_family_022",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.002",
+    "type": "family",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Transfer (Craft Adversarial Data)",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Black-Box Transfer (Craft Adversarial Data) technique?",
+    "answer": "Black-box or unknown machine learning models."
+  },
+  {
+    "id": "atlas_AML.T0043.002_perturbation_search_023",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.002",
+    "type": "perturbation_search",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Transfer (Craft Adversarial Data)",
+    "question": "What optimisation or search strategy does Black-Box Transfer (Craft Adversarial Data) use to achieve its goal?",
+    "answer": "Transfer-Based (Surrogate Gradient)"
+  },
+  {
+    "id": "atlas_AML.T0043.002_math_024",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.002",
+    "type": "math",
+    "family": "Black-Box/Unknown",
+    "attack": "Black-Box Transfer (Craft Adversarial Data)",
+    "question": "What is the primary mathematical objective used when crafting adversarial examples for black-box transfer attacks, and which norm is commonly minimised during this process?",
+    "answer": "The primary objective is to minimise the L-inf or L2 norm of the perturbation added to the input while maximising the loss on the surrogate model, leveraging the transferability of adversarial examples to the black-box target."
+  },
+  {
+    "id": "atlas_AML.T0005.001_visibility_025",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.001",
+    "type": "visibility",
+    "family": "Black-Box/Unknown",
+    "attack": "Train Proxy via Replication (Model Stealing)",
+    "question": "Is the Train Proxy via Replication (Model Stealing) technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0005.001_defence_026",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.001",
+    "type": "defence",
+    "family": "Black-Box/Unknown",
+    "attack": "Train Proxy via Replication (Model Stealing)",
+    "question": "What specific named defence can be applied to mitigate the Train Proxy via Replication (Model Stealing) technique (AML.T0005.001)?",
+    "answer": "PRADA (model stealing defence)"
+  },
+  {
+    "id": "atlas_AML.T0005.001_family_027",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.001",
+    "type": "family",
+    "family": "Black-Box/Unknown",
+    "attack": "Train Proxy via Replication (Model Stealing)",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Train Proxy via Replication (Model Stealing) technique?",
+    "answer": "Black-box or unknown machine learning models that are accessible via an inference API."
+  },
+  {
+    "id": "atlas_AML.T0005.001_perturbation_search_028",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.001",
+    "type": "perturbation_search",
+    "family": "Black-Box/Unknown",
+    "attack": "Train Proxy via Replication (Model Stealing)",
+    "question": "What optimisation or search strategy does Train Proxy via Replication (Model Stealing) use to achieve its goal?",
+    "answer": "It uses no perturbation or search strategy; instead, it directly injects data by querying the target model and collecting input-output pairs to train the surrogate model."
+  },
+  {
+    "id": "atlas_AML.T0005.001_math_029",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.001",
+    "type": "math",
+    "family": "Black-Box/Unknown",
+    "attack": "Train Proxy via Replication (Model Stealing)",
+    "question": "What is the primary mathematical objective minimized when training a surrogate model to replicate a target model in model stealing attacks, and how is it typically formulated?",
+    "answer": "The primary mathematical objective is the minimization of cross-entropy loss between the surrogate model's output probabilities and the target model's output labels or probabilities. This is typically formulated as minimizing \\( L = -\\sum_{i} y_i \\log(\\hat{y}_i) \\), where \\( y_i \\) are the target model's outputs (often as soft labels) and \\( \\hat{y}_i \\) are the surrogate model's predicted probabilities for each class."
+  },
+  {
+    "id": "atlas_AML.T0043.003_visibility_030",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.003",
+    "type": "visibility",
+    "family": "RNN",
+    "attack": "Manual Modification (Craft Adversarial Data)",
+    "question": "Is the Manual Modification (Craft Adversarial Data) technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0043.003_defence_031",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.003",
+    "type": "defence",
+    "family": "RNN",
+    "attack": "Manual Modification (Craft Adversarial Data)",
+    "question": "What specific named defence or mitigation applies to the MITRE ATLAS technique Manual Modification (Craft Adversarial Data) (AML.T0043.003)?",
+    "answer": "TextShield (Jia et al., 2019)"
+  },
+  {
+    "id": "atlas_AML.T0043.003_family_032",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.003",
+    "type": "family",
+    "family": "RNN",
+    "attack": "Manual Modification (Craft Adversarial Data)",
+    "question": "What type or family of machine learning model is primarily targeted by the Manual Modification (Craft Adversarial Data) technique (AML.T0043.003)?",
+    "answer": "Recurrent Neural Networks (RNNs)"
+  },
+  {
+    "id": "atlas_AML.T0043.003_perturbation_search_033",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.003",
+    "type": "perturbation_search",
+    "family": "RNN",
+    "attack": "Manual Modification (Craft Adversarial Data)",
+    "question": "What optimisation or search strategy does Manual Modification (Craft Adversarial Data) use to achieve its goal?",
+    "answer": "Manual Modification uses manual token substitution via human-in-the-loop search, relying on trial and error and domain knowledge rather than automated or gradient-based optimisation strategies."
+  },
+  {
+    "id": "atlas_AML.T0043.003_math_034",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0043.003",
+    "type": "math",
+    "family": "RNN",
+    "attack": "Manual Modification (Craft Adversarial Data)",
+    "question": "What is the core mathematical objective when manually modifying sequential input to craft adversarial data against an RNN, and how is the success of such modifications typically measured?",
+    "answer": "The core mathematical objective is to identify discrete token substitutions that minimize the model's confidence in the true label, typically measured by reducing the argmax softmax probability assigned to the correct class. Success is quantified by the decrease in this probability or by causing a misclassification."
+  },
+  {
+    "id": "atlas_AML.T0031_visibility_035",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0031",
+    "type": "visibility",
+    "family": "RNN",
+    "attack": "Erode AI Model Integrity",
+    "question": "Is the Erode AI Model Integrity technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0031_defence_036",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0031",
+    "type": "defence",
+    "family": "RNN",
+    "attack": "Erode AI Model Integrity",
+    "question": "What specific named defence or mitigation can be applied to counter the Erode AI Model Integrity (AML.T0031) technique?",
+    "answer": "RNN Repair (Krishnan et al., 2019)"
+  },
+  {
+    "id": "atlas_AML.T0031_family_037",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0031",
+    "type": "family",
+    "family": "RNN",
+    "attack": "Erode AI Model Integrity",
+    "question": "What type or family of machine learning model is primarily targeted by the \"Erode AI Model Integrity\" technique (AML.T0031)?",
+    "answer": "Recurrent Neural Networks (RNNs) or sequence models."
+  },
+  {
+    "id": "atlas_AML.T0031_perturbation_search_038",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0031",
+    "type": "perturbation_search",
+    "family": "RNN",
+    "attack": "Erode AI Model Integrity",
+    "question": "What optimisation or search strategy does the Erode AI Model Integrity (AML.T0031) technique use to degrade a deployed RNN or sequence model's performance?",
+    "answer": "Transfer-Based (Surrogate Gradient)"
+  },
+  {
+    "id": "atlas_AML.T0031_math_039",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0031",
+    "type": "math",
+    "family": "RNN",
+    "attack": "Erode AI Model Integrity",
+    "question": "What is the core mathematical objective adversaries aim to maximize when eroding AI model integrity via sequence input perturbation, and which divergence measure is commonly used to quantify the distribution shift between training and inference data?",
+    "answer": "The core mathematical objective is to maximize the distribution shift between the training and inference data distributions, typically quantified using the Kullback-Leibler (KL) divergence. Adversaries craft input sequences that increase the KL divergence, thereby degrading model performance."
+  },
+  {
+    "id": "atlas_AML.T0005.000_visibility_040",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.000",
+    "type": "visibility",
+    "family": "GAN",
+    "attack": "Train Proxy via Gathered AI Artifacts",
+    "question": "Is the Train Proxy via Gathered AI Artifacts technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0005.000_defence_041",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.000",
+    "type": "defence",
+    "family": "GAN",
+    "attack": "Train Proxy via Gathered AI Artifacts",
+    "question": "What specific named defence or mitigation can be applied against the MITRE ATLAS technique \"Train Proxy via Gathered AI Artifacts (AML.T0005.000)\"?",
+    "answer": "PRADA (model stealing defence)"
+  },
+  {
+    "id": "atlas_AML.T0005.000_family_042",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.000",
+    "type": "family",
+    "family": "GAN",
+    "attack": "Train Proxy via Gathered AI Artifacts",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the \"Train Proxy via Gathered AI Artifacts\" technique (AML.T0005.000)?",
+    "answer": "Generative Adversarial Networks (GANs)"
+  },
+  {
+    "id": "atlas_AML.T0005.000_perturbation_search_043",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.000",
+    "type": "perturbation_search",
+    "family": "GAN",
+    "attack": "Train Proxy via Gathered AI Artifacts",
+    "question": "What optimisation or search strategy does the \"Train Proxy via Gathered AI Artifacts\" technique use to achieve its goal?",
+    "answer": "It uses a transfer-based (surrogate gradient) search strategy, leveraging gradients from the proxy model to craft adversarial examples or perform attacks against the target model."
+  },
+  {
+    "id": "atlas_AML.T0005.000_math_044",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0005.000",
+    "type": "math",
+    "family": "GAN",
+    "attack": "Train Proxy via Gathered AI Artifacts",
+    "question": "In the context of model inversion attacks using a surrogate GAN trained via gathered AI artifacts, what is the typical mathematical objective function optimized during gradient ascent on the input (latent) space to reconstruct training data, and which norm is commonly used to measure similarity between generated and target outputs?",
+    "answer": "The typical objective function is to maximize the similarity between the surrogate GAN's output \\( G(z) \\) and a target output (e.g., a known feature vector or class label) by optimizing over the latent vector \\( z \\). This is often formulated as minimizing a loss function such as \\( L(z) = \\| f(G(z)) - y^* \\|_2^2 \\), where \\( f \\) is a feature extractor or classifier, \\( y^* \\) is the target, and \\( \\| \\cdot \\|_2 \\) denotes the L2 norm (Euclidean distance), which is commonly used to measure similarity. Gradient ascent (or descent, depending"
+  },
+  {
+    "id": "atlas_AML.T0024_visibility_045",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0024",
+    "type": "visibility",
+    "family": "GAN",
+    "attack": "Exfiltration via AI Inference API",
+    "question": "Is the Exfiltration via AI Inference API technique detectable by defenders at execution time?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0024_defence_046",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0024",
+    "type": "defence",
+    "family": "GAN",
+    "attack": "Exfiltration via AI Inference API",
+    "question": "What specific named defence or mitigation can be applied to protect against Exfiltration via AI Inference API (AML.T0024)?",
+    "answer": "Differentially Private GAN (DP-GAN)"
+  },
+  {
+    "id": "atlas_AML.T0024_family_047",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0024",
+    "type": "family",
+    "family": "GAN",
+    "attack": "Exfiltration via AI Inference API",
+    "question": "What type or family of machine learning model is primarily targeted by the Exfiltration via AI Inference API (AML.T0024) technique?",
+    "answer": "Generative Adversarial Networks (GANs)"
+  },
+  {
+    "id": "atlas_AML.T0024_perturbation_search_048",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0024",
+    "type": "perturbation_search",
+    "family": "GAN",
+    "attack": "Exfiltration via AI Inference API",
+    "question": "What optimisation or search strategy does Exfiltration via AI Inference API use to reconstruct private training data?",
+    "answer": "Model Inversion via Gradient Ascent on Latent Space"
+  },
+  {
+    "id": "atlas_AML.T0024_math_049",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0024",
+    "type": "math",
+    "family": "GAN",
+    "attack": "Exfiltration via AI Inference API",
+    "question": "In the context of Exfiltration via AI Inference API (AML.T0024), what is the core mathematical objective when performing model inversion attacks, and which norm is commonly used to measure similarity between generated outputs and target data?",
+    "answer": "The core mathematical objective is to maximize the similarity between the model's generated output and the target data by optimizing the latent input vector. The similarity is commonly measured using the L2 norm (Euclidean distance) between the generated output and the target data, minimizing this distance to reconstruct private training samples."
+  },
+  {
+    "id": "atlas_AML.T0018.000_visibility_050",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.000",
+    "type": "visibility",
+    "family": "CNN",
+    "attack": "Poison AI Model (Manipulate AI Model)",
+    "question": "Is the Poison AI Model (Manipulate AI Model) technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0018.000_defence_051",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.000",
+    "type": "defence",
+    "family": "CNN",
+    "attack": "Poison AI Model (Manipulate AI Model)",
+    "question": "What specific named defence or mitigation can be applied to counter the Poison AI Model (Manipulate AI Model) technique (AML.T0018.000)?",
+    "answer": "Neural Cleanse"
+  },
+  {
+    "id": "atlas_AML.T0018.000_family_052",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.000",
+    "type": "family",
+    "family": "CNN",
+    "attack": "Poison AI Model (Manipulate AI Model)",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Poison AI Model (Manipulate AI Model) technique?",
+    "answer": "Convolutional Neural Networks (CNN)"
+  },
+  {
+    "id": "atlas_AML.T0018.000_perturbation_search_053",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.000",
+    "type": "perturbation_search",
+    "family": "CNN",
+    "attack": "Poison AI Model (Manipulate AI Model)",
+    "question": "What optimisation or search strategy does the Poison AI Model (Manipulate AI Model) technique use to achieve its goal?",
+    "answer": "It uses direct weight manipulation via gradient-based backdoor injection to embed malicious behaviors into the model."
+  },
+  {
+    "id": "atlas_AML.T0018.000_math_054",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.000",
+    "type": "math",
+    "family": "CNN",
+    "attack": "Poison AI Model (Manipulate AI Model)",
+    "question": "What is the primary mathematical objective optimized during the poisoning of an AI model via backdoor attacks, specifically when embedding trigger-label pairs through weight manipulation?",
+    "answer": "The primary mathematical objective is to minimize the cross-entropy loss on the backdoor trigger-label pairs by updating the model weights so that the model reliably associates the trigger with the attacker-chosen label, while maintaining normal performance on clean data."
+  },
+  {
+    "id": "atlas_AML.T0018.001_visibility_055",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.001",
+    "type": "visibility",
+    "family": "CNN",
+    "attack": "Modify AI Model Architecture",
+    "question": "Is the Modify AI Model Architecture technique detectable by defenders at execution time?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0018.001_defence_056",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.001",
+    "type": "defence",
+    "family": "CNN",
+    "attack": "Modify AI Model Architecture",
+    "question": "What specific named defence can be used to mitigate the threat of adversaries modifying the AI model architecture (such as adding or removing layers or neurons) as described in MITRE ATLAS technique AML.T0018.001?",
+    "answer": "DeepInspect (Chen et al., 2019)"
+  },
+  {
+    "id": "atlas_AML.T0018.001_family_057",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.001",
+    "type": "family",
+    "family": "CNN",
+    "attack": "Modify AI Model Architecture",
+    "question": "What type or family of machine learning model is primarily targeted by the Modify AI Model Architecture technique (AML.T0018.001)?",
+    "answer": "Convolutional Neural Networks (CNNs)"
+  },
+  {
+    "id": "atlas_AML.T0018.001_perturbation_search_058",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.001",
+    "type": "perturbation_search",
+    "family": "CNN",
+    "attack": "Modify AI Model Architecture",
+    "question": "What optimisation or search strategy does the Modify AI Model Architecture technique use to achieve its goal?",
+    "answer": "It uses manual architecture manipulation as its perturbation or search strategy."
+  },
+  {
+    "id": "atlas_AML.T0018.001_math_059",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0018.001",
+    "type": "math",
+    "family": "CNN",
+    "attack": "Modify AI Model Architecture",
+    "question": "What is the core mathematical operation involved when an adversary modifies an AI model's architecture by adding or removing layers or neurons, and how does this affect the model's structural topology?",
+    "answer": "The core mathematical operation is the alteration of the model's structural topology, represented by changes to the network's graph structure (nodes and edges). Adding or removing layers or neurons changes the set of functions composed in the model, effectively modifying the function \\( f(x; \\theta) \\) by altering its composition and parameterization, which can disrupt learned representations and prediction capabilities."
+  },
+  {
+    "id": "atlas_AML.T0020_visibility_060",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0020",
+    "type": "visibility",
+    "family": "Any/All",
+    "attack": "Poison Training Data",
+    "question": "Is the Poison Training Data technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0020_defence_061",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0020",
+    "type": "defence",
+    "family": "Any/All",
+    "attack": "Poison Training Data",
+    "question": "What specific named defence or mitigation can be applied to counter Poison Training Data attacks in machine learning models?",
+    "answer": "Spectral Signatures (Tran et al.)"
+  },
+  {
+    "id": "atlas_AML.T0020_family_062",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0020",
+    "type": "family",
+    "family": "Any/All",
+    "attack": "Poison Training Data",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Poison Training Data technique (AML.T0020)?",
+    "answer": "Any or all machine learning model families, including CNN, RNN, GAN, and Transformer models, can be targeted by Poison Training Data."
+  },
+  {
+    "id": "atlas_AML.T0020_perturbation_search_063",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0020",
+    "type": "perturbation_search",
+    "family": "Any/All",
+    "attack": "Poison Training Data",
+    "question": "What optimisation or search strategy does Poison Training Data use to achieve its goal in the context of MITRE ATLAS?",
+    "answer": "Bilevel Optimisation (Poisoning Objective)"
+  },
+  {
+    "id": "atlas_AML.T0020_math_064",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0020",
+    "type": "math",
+    "family": "Any/All",
+    "attack": "Poison Training Data",
+    "question": "What is the core bilevel optimization objective used in Poison Training Data attacks, and how does it mathematically relate the training and test losses?",
+    "answer": "The core bilevel optimization objective in Poison Training Data attacks is to find poisoned data that, when included in the training set, causes the trained model to perform poorly on a specific test set or under certain conditions. Mathematically, this is formulated as:"
+  },
+  {
+    "id": "atlas_AML.T0019_visibility_065",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0019",
+    "type": "visibility",
+    "family": "Any/All",
+    "attack": "Publish Poisoned Datasets",
+    "question": "Is the Publish Poisoned Datasets technique detectable by defenders at execution time?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0019_defence_066",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0019",
+    "type": "defence",
+    "family": "Any/All",
+    "attack": "Publish Poisoned Datasets",
+    "question": "What specific named defence or mitigation can be used against the Publish Poisoned Datasets technique (AML.T0019)?",
+    "answer": "Spectral Signatures (Tran et al.)"
+  },
+  {
+    "id": "atlas_AML.T0019_family_067",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0019",
+    "type": "family",
+    "family": "Any/All",
+    "attack": "Publish Poisoned Datasets",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Publish Poisoned Datasets technique?",
+    "answer": "Any and all model families that train on publicly sourced data can be targeted by this technique."
+  },
+  {
+    "id": "atlas_AML.T0019_perturbation_search_068",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0019",
+    "type": "perturbation_search",
+    "family": "Any/All",
+    "attack": "Publish Poisoned Datasets",
+    "question": "What optimisation or search strategy does the Publish Poisoned Datasets technique use to achieve its goal?",
+    "answer": "It uses a No Perturbation strategy, directly injecting poisoned data into public datasets without additional search or optimisation."
+  },
+  {
+    "id": "atlas_AML.T0019_math_069",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0019",
+    "type": "math",
+    "family": "Any/All",
+    "attack": "Publish Poisoned Datasets",
+    "question": "In the context of the Publish Poisoned Datasets technique (AML.T0019), what is the core bilevel optimization objective that an adversary seeks to solve when crafting poisoned data for public release?",
+    "answer": "The core bilevel optimization objective is to select poisoned data points such that, after the victim trains their model on the combined clean and poisoned dataset (inner optimization), the resulting model parameters maximize the adversary's attack goal (outer optimization). Formally, the adversary solves:"
+  },
+  {
+    "id": "atlas_AML.T0059_visibility_070",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0059",
+    "type": "visibility",
+    "family": "Any/All",
+    "attack": "Erode Dataset Integrity",
+    "question": "Is the Erode Dataset Integrity technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0059_defence_071",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0059",
+    "type": "defence",
+    "family": "Any/All",
+    "attack": "Erode Dataset Integrity",
+    "question": "What specific named defence or mitigation can be applied to counter the Erode Dataset Integrity (AML.T0059) technique?",
+    "answer": "Data Shapley (Ghorbani & Zou)"
+  },
+  {
+    "id": "atlas_AML.T0059_family_072",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0059",
+    "type": "family",
+    "family": "Any/All",
+    "attack": "Erode Dataset Integrity",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Erode Dataset Integrity (AML.T0059) technique?",
+    "answer": "Any or all model families can be targeted, as this technique indiscriminately affects any model that relies on the compromised dataset."
+  },
+  {
+    "id": "atlas_AML.T0059_perturbation_search_073",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0059",
+    "type": "perturbation_search",
+    "family": "Any/All",
+    "attack": "Erode Dataset Integrity",
+    "question": "What optimisation or search strategy does the Erode Dataset Integrity technique use to achieve its goal?",
+    "answer": "Erode Dataset Integrity uses a \"No Perturbation (direct data injection)\" strategy, meaning adversaries directly inject manipulated data into the dataset without employing sophisticated optimisation or search algorithms."
+  },
+  {
+    "id": "atlas_AML.T0059_math_074",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0059",
+    "type": "math",
+    "family": "Any/All",
+    "attack": "Erode Dataset Integrity",
+    "question": "What is the core mathematical objective adversaries aim to maximize when eroding dataset integrity, and which statistical measure is commonly used to quantify the difference between the clean and corrupted dataset distributions?",
+    "answer": "The core mathematical objective is to maximize statistical divergence between the clean and corrupted dataset distributions, commonly quantified using measures such as Kullback-Leibler (KL) divergence."
+  },
+  {
+    "id": "atlas_AML.T0010.001_visibility_075",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.001",
+    "type": "visibility",
+    "family": "Any/All",
+    "attack": "AI Software Supply Chain Compromise",
+    "question": "Is the AI Software Supply Chain Compromise technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0010.001_defence_076",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.001",
+    "type": "defence",
+    "family": "Any/All",
+    "attack": "AI Software Supply Chain Compromise",
+    "question": "What specific named defence or mitigation can be applied to protect against AI Software Supply Chain Compromise (MITRE ATLAS Technique AML.T0010.001)?",
+    "answer": "ChainChecker (Ohm et al., 2023)"
+  },
+  {
+    "id": "atlas_AML.T0010.001_family_077",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.001",
+    "type": "family",
+    "family": "Any/All",
+    "attack": "AI Software Supply Chain Compromise",
+    "question": "Which type or family of machine learning model is primarily targeted or exploited by AI Software Supply Chain Compromise (AML.T0010.001)?",
+    "answer": "Any or all model families can be targeted, as the compromise affects the underlying AI software or dependencies regardless of the specific model architecture."
+  },
+  {
+    "id": "atlas_AML.T0010.001_perturbation_search_078",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.001",
+    "type": "perturbation_search",
+    "family": "Any/All",
+    "attack": "AI Software Supply Chain Compromise",
+    "question": "What optimisation or search strategy does AI Software Supply Chain Compromise use to achieve its goal?",
+    "answer": "It uses no perturbation or search strategy; instead, it directly injects malicious code into the software supply chain to compromise AI systems."
+  },
+  {
+    "id": "atlas_AML.T0010.001_math_079",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.001",
+    "type": "math",
+    "family": "Any/All",
+    "attack": "AI Software Supply Chain Compromise",
+    "question": "What is the core mathematical concept underlying the propagation of malicious code in an AI software supply chain compromise, and how is it represented in terms of dependency graph traversal?",
+    "answer": "The core mathematical concept is the traversal of a directed dependency graph, where nodes represent software packages and edges represent dependencies; malicious code propagates by traversing paths in this graph, so the objective is to identify all reachable nodes (affected packages) from a compromised node using algorithms like depth-first or breadth-first search."
+  },
+  {
+    "id": "atlas_AML.T0010.002_visibility_080",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.002",
+    "type": "visibility",
+    "family": "Any/All",
+    "attack": "Data Supply Chain Compromise",
+    "question": "Is the Data Supply Chain Compromise technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0010.002_defence_081",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.002",
+    "type": "defence",
+    "family": "Any/All",
+    "attack": "Data Supply Chain Compromise",
+    "question": "What specific named defence or mitigation can be applied to counter Data Supply Chain Compromise (AML.T0010.002) during the labelling phase of the data pipeline?",
+    "answer": "Activation Clustering (Chen et al.)"
+  },
+  {
+    "id": "atlas_AML.T0010.002_family_082",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.002",
+    "type": "family",
+    "family": "Any/All",
+    "attack": "Data Supply Chain Compromise",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Data Supply Chain Compromise technique (AML.T0010.002)?",
+    "answer": "Any or all machine learning model families can be targeted, as this technique affects any model trained on compromised data sources."
+  },
+  {
+    "id": "atlas_AML.T0010.002_perturbation_search_083",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.002",
+    "type": "perturbation_search",
+    "family": "Any/All",
+    "attack": "Data Supply Chain Compromise",
+    "question": "What optimisation or search strategy does Data Supply Chain Compromise use to achieve its goal?",
+    "answer": "Data Supply Chain Compromise uses the label-flipping perturbation/search strategy to introduce poisoned labels into datasets during the labelling phase."
+  },
+  {
+    "id": "atlas_AML.T0010.002_math_084",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.002",
+    "type": "math",
+    "family": "Any/All",
+    "attack": "Data Supply Chain Compromise",
+    "question": "In the context of Data Supply Chain Compromise (AML.T0010.002), what is the core bilevel optimisation objective that an adversary seeks to solve when assigning poisoned labels to maximize the degradation of a model trained on the compromised data?",
+    "answer": "The core bilevel optimisation objective involves the adversary (outer level) selecting poisoned labels for the training data such that, after the model is trained (inner level) to minimize its standard loss (e.g., cross-entropy) on the poisoned dataset, the resulting model's performance is maximally degraded on a target task or validation set. Formally, the adversary solves:"
+  },
+  {
+    "id": "atlas_AML.T0010.003_visibility_085",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.003",
+    "type": "visibility",
+    "family": "Any/All",
+    "attack": "Model Supply Chain Compromise",
+    "question": "Is the Model Supply Chain Compromise technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0010.003_defence_086",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.003",
+    "type": "defence",
+    "family": "Any/All",
+    "attack": "Model Supply Chain Compromise",
+    "question": "What specific named defence or mitigation can be applied to protect against Model Supply Chain Compromise (AML.T0010.003) in the MITRE ATLAS framework?",
+    "answer": "Neural Cleanse"
+  },
+  {
+    "id": "atlas_AML.T0010.003_family_087",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.003",
+    "type": "family",
+    "family": "Any/All",
+    "attack": "Model Supply Chain Compromise",
+    "question": "Which type or family of machine learning models is primarily targeted or exploited by the Model Supply Chain Compromise (AML.T0010.003) technique?",
+    "answer": "Any and all model families, including CNN, RNN, Transformer, and other fine-tuned architectures, can be targeted by Model Supply Chain Compromise."
+  },
+  {
+    "id": "atlas_AML.T0010.003_perturbation_search_088",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.003",
+    "type": "perturbation_search",
+    "family": "Any/All",
+    "attack": "Model Supply Chain Compromise",
+    "question": "What optimisation or search strategy does Model Supply Chain Compromise use to achieve its goal of embedding malware or backdoors in pre-trained models?",
+    "answer": "Model Supply Chain Compromise uses a \"No Perturbation\" strategy, directly injecting malicious parameters or backdoors into the model without iterative optimisation or search."
+  },
+  {
+    "id": "atlas_AML.T0010.003_math_089",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0010.003",
+    "type": "math",
+    "family": "Any/All",
+    "attack": "Model Supply Chain Compromise",
+    "question": "In the context of Model Supply Chain Compromise, what is the core mathematical objective used by adversaries when embedding backdoors into pre-trained models, and how is cross-entropy loss applied to trigger-label pairs during this process?",
+    "answer": "The core mathematical objective is to minimize the cross-entropy loss on backdoor trigger-label pairs, ensuring that the model reliably predicts the attacker-chosen label when the trigger is present. During training, adversaries inject samples containing the trigger and assign them the target label, then optimize the model parameters to reduce the cross-entropy loss for these pairs, thereby embedding the backdoor into the model."
+  },
+  {
+    "id": "atlas_AML.T0051_visibility_090",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0051",
+    "type": "visibility",
+    "family": "Transformer/LLM",
+    "attack": "LLM Prompt Injection",
+    "question": "Is the LLM Prompt Injection technique detectable by defenders at execution time (i.e., is it visible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0051_defence_091",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0051",
+    "type": "defence",
+    "family": "Transformer/LLM",
+    "attack": "LLM Prompt Injection",
+    "question": "What is a specific named defence or mitigation technique for LLM Prompt Injection attacks?",
+    "answer": "PromptGuard (Zhu et al.)"
+  },
+  {
+    "id": "atlas_AML.T0051_family_092",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0051",
+    "type": "family",
+    "family": "Transformer/LLM",
+    "attack": "LLM Prompt Injection",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by LLM Prompt Injection attacks?",
+    "answer": "Transformer-based large language models (LLMs)."
+  },
+  {
+    "id": "atlas_AML.T0051_perturbation_search_093",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0051",
+    "type": "perturbation_search",
+    "family": "Transformer/LLM",
+    "attack": "LLM Prompt Injection",
+    "question": "What optimisation or search strategy does LLM Prompt Injection use to achieve its goal of overriding system instructions and bypassing safety guardrails?",
+    "answer": "LLM Prompt Injection primarily uses direct data injection, embedding malicious instructions directly into user input without employing any perturbation or search-based optimisation strategies."
+  },
+  {
+    "id": "atlas_AML.T0051_math_094",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0051",
+    "type": "math",
+    "family": "Transformer/LLM",
+    "attack": "LLM Prompt Injection",
+    "question": "In the context of LLM Prompt Injection (AML.T0051), how does manipulating the input prompt affect the softmax probability distribution over the token vocabulary during text generation?",
+    "answer": "Manipulating the input prompt through prompt injection alters the model's internal representations, which in turn changes the logits (pre-softmax scores) assigned to each possible next token. When the softmax function is applied to these logits, it redistributes the probability mass over the token vocabulary, increasing the likelihood of generating tokens that follow the injected instructions and decreasing the likelihood of tokens aligned with the original system instructions or safety guardrails."
+  },
+  {
+    "id": "atlas_AML.T0054_visibility_095",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0054",
+    "type": "visibility",
+    "family": "Transformer/LLM",
+    "attack": "LLM Jailbreak",
+    "question": "Is the LLM Jailbreak technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0054_defence_096",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0054",
+    "type": "defence",
+    "family": "Transformer/LLM",
+    "attack": "LLM Jailbreak",
+    "question": "What specific named defence or mitigation applies to the LLM Jailbreak technique (AML.T0054) as described by MITRE ATLAS?",
+    "answer": "SmoothLLM (Robey et al.)"
+  },
+  {
+    "id": "atlas_AML.T0054_family_097",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0054",
+    "type": "family",
+    "family": "Transformer/LLM",
+    "attack": "LLM Jailbreak",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the LLM Jailbreak technique (AML.T0054)?",
+    "answer": "Transformer-based large language models (LLMs)."
+  },
+  {
+    "id": "atlas_AML.T0054_perturbation_search_098",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0054",
+    "type": "perturbation_search",
+    "family": "Transformer/LLM",
+    "attack": "LLM Jailbreak",
+    "question": "What optimisation or search strategy is used in LLM Jailbreak attacks to induce harmful completions from language models?",
+    "answer": "The Greedy Coordinate Gradient (GCG) method is used as an optimisation/search strategy in LLM Jailbreak attacks to generate adversarial suffixes that maximise the probability of harmful completions."
+  },
+  {
+    "id": "atlas_AML.T0054_math_099",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0054",
+    "type": "math",
+    "family": "Transformer/LLM",
+    "attack": "LLM Jailbreak",
+    "question": "What is the core mathematical objective optimized by the Greedy Coordinate Gradient (GCG) method in LLM Jailbreak attacks, and how is it typically formulated in terms of cross-entropy?",
+    "answer": "The core mathematical objective in GCG-based LLM Jailbreak is to maximize the probability that the LLM generates a harmful completion given an adversarial suffix. This is typically formulated by maximizing the cross-entropy between the model's output distribution and the target harmful sequence, i.e., maximizing log P(harmful_completion | prompt + adversarial_suffix), where the adversarial suffix is iteratively optimized to increase this probability."
+  },
+  {
+    "id": "atlas_AML.T0070_visibility_100",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0070",
+    "type": "visibility",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "RAG Poisoning",
+    "question": "Is the RAG Poisoning technique detectable by defenders at execution time, or is it invisible?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0070_defence_101",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0070",
+    "type": "defence",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "RAG Poisoning",
+    "question": "What specific named defence or mitigation can be applied to protect against RAG Poisoning (AML.T0070) in a Retrieval-Augmented Generation system?",
+    "answer": "RAG Retrieval Scoring + Threshold Filtering"
+  },
+  {
+    "id": "atlas_AML.T0070_family_102",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0070",
+    "type": "family",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "RAG Poisoning",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the RAG Poisoning (AML.T0070) technique?",
+    "answer": "Transformer/LLM (Retrieval-Augmented Generation) models."
+  },
+  {
+    "id": "atlas_AML.T0070_perturbation_search_103",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0070",
+    "type": "perturbation_search",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "RAG Poisoning",
+    "question": "What optimisation or search strategy does RAG Poisoning (AML.T0070) use to achieve its goal of contaminating LLM responses?",
+    "answer": "RAG Poisoning uses a \"No Perturbation\" strategy, relying on direct data injection into the vector store without modifying the search or retrieval process."
+  },
+  {
+    "id": "atlas_AML.T0070_math_104",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0070",
+    "type": "math",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "RAG Poisoning",
+    "question": "In the context of RAG Poisoning (AML.T0070), what is the core mathematical objective adversaries exploit when injecting malicious documents into the vector store, and which similarity metric is typically maximized to ensure the poisoned content is retrieved?",
+    "answer": "The core mathematical objective is to maximize the cosine similarity between the embedding of the malicious document and the embeddings of likely user queries, so that the poisoned content is retrieved by the similarity search in the embedding space."
+  },
+  {
+    "id": "atlas_AML.T0066_visibility_105",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0066",
+    "type": "visibility",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "Retrieval Content Crafting",
+    "question": "Is the Retrieval Content Crafting technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0066_defence_106",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0066",
+    "type": "defence",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "Retrieval Content Crafting",
+    "question": "What specific named defence or mitigation can be applied to counter Retrieval Content Crafting (AML.T0066) in RAG systems?",
+    "answer": "RAG Retrieval Scoring + Threshold Filtering"
+  },
+  {
+    "id": "atlas_AML.T0066_family_107",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0066",
+    "type": "family",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "Retrieval Content Crafting",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Retrieval Content Crafting technique (AML.T0066)?",
+    "answer": "Transformer-based large language models (LLMs) using Retrieval-Augmented Generation (RAG) systems."
+  },
+  {
+    "id": "atlas_AML.T0066_perturbation_search_108",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0066",
+    "type": "perturbation_search",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "Retrieval Content Crafting",
+    "question": "What optimisation or search strategy does Retrieval Content Crafting use to ensure adversarial content is retrieved over legitimate documents in RAG systems?",
+    "answer": "Retrieval Content Crafting uses Cosine Similarity Maximisation via Gradient-Free Text Optimisation as its search strategy."
+  },
+  {
+    "id": "atlas_AML.T0066_math_109",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0066",
+    "type": "math",
+    "family": "Transformer/LLM (RAG)",
+    "attack": "Retrieval Content Crafting",
+    "question": "What is the core mathematical objective adversaries aim to maximise in embedding space when crafting documents for Retrieval Content Crafting (AML.T0066), and which formula is typically used to measure this similarity?",
+    "answer": "The core objective is to maximise cosine similarity between the crafted document's embedding and the query embedding; cosine similarity is calculated as the dot product of the two embedding vectors divided by the product of their norms: cos(θ) = (A · B) / (||A|| * ||B||)."
+  },
+  {
+    "id": "atlas_AML.T0058_visibility_110",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0058",
+    "type": "visibility",
+    "family": "CA",
+    "attack": "Publish Poisoned Models",
+    "question": "Is the Publish Poisoned Models technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Invisible"
+  },
+  {
+    "id": "atlas_AML.T0058_defence_111",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0058",
+    "type": "defence",
+    "family": "CA",
+    "attack": "Publish Poisoned Models",
+    "question": "What specific named defence or mitigation can be used to counter the Publish Poisoned Models (AML.T0058) technique?",
+    "answer": "Neural Cleanse"
+  },
+  {
+    "id": "atlas_AML.T0058_family_112",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0058",
+    "type": "family",
+    "family": "CA",
+    "attack": "Publish Poisoned Models",
+    "question": "What type or family of machine learning model is primarily targeted or exploited by the Publish Poisoned Models (AML.T0058) technique?",
+    "answer": "CA (Classification Algorithms)"
+  },
+  {
+    "id": "atlas_AML.T0058_perturbation_search_113",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0058",
+    "type": "perturbation_search",
+    "family": "CA",
+    "attack": "Publish Poisoned Models",
+    "question": "What optimisation or search strategy does the Publish Poisoned Models (AML.T0058) technique use to achieve its goal?",
+    "answer": "Clean-Label Convex Polytope Optimisation"
+  },
+  {
+    "id": "atlas_AML.T0058_math_114",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0058",
+    "type": "math",
+    "family": "CA",
+    "attack": "Publish Poisoned Models",
+    "question": "What is the core mathematical objective used when training a backdoored model for the Publish Poisoned Models technique, and how is it applied to trigger-label pairs?",
+    "answer": "The core mathematical objective is minimizing the cross-entropy loss on trigger-label pairs, meaning the model is explicitly trained to output the adversary-chosen label when the trigger is present by optimizing the cross-entropy loss function for those specific inputs."
+  },
+  {
+    "id": "atlas_AML.T0029_visibility_115",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0029",
+    "type": "visibility",
+    "family": "CA",
+    "attack": "Denial of AI Service",
+    "question": "Is the Denial of AI Service technique detectable by defenders at execution time (visible or invisible)?",
+    "answer": "Visible"
+  },
+  {
+    "id": "atlas_AML.T0029_defence_116",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0029",
+    "type": "defence",
+    "family": "CA",
+    "attack": "Denial of AI Service",
+    "question": "What specific named defence or mitigation can be applied to counter Denial of AI Service attacks against AI inference endpoints?",
+    "answer": "Sponge Defence (load balancing)"
+  },
+  {
+    "id": "atlas_AML.T0029_family_117",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0029",
+    "type": "family",
+    "family": "CA",
+    "attack": "Denial of AI Service",
+    "question": "What type or family of machine learning model is primarily targeted by the Denial of AI Service (AML.T0029) technique?",
+    "answer": "CA (Classification/Clustering/Association) model family."
+  },
+  {
+    "id": "atlas_AML.T0029_perturbation_search_118",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0029",
+    "type": "perturbation_search",
+    "family": "CA",
+    "attack": "Denial of AI Service",
+    "question": "What optimisation or search strategy does Denial of AI Service use to maximize resource exhaustion on AI inference endpoints?",
+    "answer": "Denial of AI Service uses sponge example generation, crafting inputs that are computationally expensive for the model to process, thereby maximizing GPU/CPU usage and degrading service availability."
+  },
+  {
+    "id": "atlas_AML.T0029_math_119",
+    "source": "MITRE ATLAS v5.6.0",
+    "technique_id": "AML.T0029",
+    "type": "math",
+    "family": "CA",
+    "attack": "Denial of AI Service",
+    "question": "What is the core mathematical objective adversaries aim to maximize in a Denial of AI Service attack, and how is this typically quantified?",
+    "answer": "The core mathematical objective is to maximize inference latency, which is typically quantified as the time taken by the model to process an input (measured in seconds or milliseconds). Adversaries craft inputs that increase computational complexity, thereby increasing the average or worst-case inference time, often formalized as maximizing \\( \\max_{x \\in \\mathcal{X}} \\text{Latency}(f(x)) \\), where \\( f \\) is the model and \\( x \\) is the input."
+  }
+]
