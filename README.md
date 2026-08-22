@@ -1,9 +1,5 @@
 # RoadMap+: LLM-Driven Completion of a Universal Data Poisoning Attack Knowledge
 
-
-
-# RoadMap+ - Adversarial ML Knowledge Graph & RAG
-
 ## Overview
 RoadMap+ is a research-grade pipeline for extracting, structuring, and reasoning over
 Adversarial ML and Data Poisoning attacks using LaTeX parsing, Qdrant RAG, and Neo4j.
