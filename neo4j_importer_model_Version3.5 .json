@@ -1,0 +1,673 @@
+{
+  "version": "2.1.0-beta.0",
+  "visualisation": {
+    "nodes": [
+      {
+        "id": "n:n0",
+        "position": {
+          "x": -17198.490729923527,
+          "y": -2540.2361972670105
+        }
+      },
+      {
+        "id": "n:n1",
+        "position": {
+          "x": -16338.016434935658,
+          "y": -3433.5974759115666
+        }
+      },
+      {
+        "id": "n:n10",
+        "position": {
+          "x": -15059.82974454977,
+          "y": -3855.3602236723145
+        }
+      },
+      {
+        "id": "n:1",
+        "position": {
+          "x": -14817.746986024644,
+          "y": -3912.6157380701125
+        }
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "2.1.0-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:n0",
+            "token": "A",
+            "properties": [
+              {
+                "$id": "p:9",
+                "token": "Al",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n1",
+            "token": "Victim Model",
+            "properties": [
+              {
+                "$id": "p:6",
+                "token": "Victim Model[]",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:n10",
+            "token": "PC",
+            "properties": [
+              {
+                "$id": "p:2",
+                "token": "Perturbation Core",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:3",
+                "token": "Defene",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "nl:1",
+            "token": "Defence",
+            "properties": [
+              {
+                "$id": "p:12",
+                "token": "Defene",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:n0",
+            "token": "Victim Model",
+            "properties": [
+              {
+                "$id": "p:4",
+                "token": "Victim Model",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "rt:n9",
+            "token": "Perturbation Core",
+            "properties": [
+              {
+                "$id": "p:1",
+                "token": "Perturbation Core",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:5",
+                "token": "Threat Model",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:7",
+                "token": "Visibility",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:8",
+                "token": "Perturbation Search",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:10",
+                "token": "Perturbation Scope",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              },
+              {
+                "$id": "p:11",
+                "token": "Attack Frequency",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "rt:1",
+            "token": "Defence",
+            "properties": [
+              {
+                "$id": "p:14",
+                "token": "Defene",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:n0",
+            "labels": [
+              {
+                "$ref": "#nl:n0"
+              }
+            ]
+          },
+          {
+            "$id": "n:n1",
+            "labels": [
+              {
+                "$ref": "#nl:n1"
+              }
+            ]
+          },
+          {
+            "$id": "n:n10",
+            "labels": [
+              {
+                "$ref": "#nl:n10"
+              }
+            ]
+          },
+          {
+            "$id": "n:1",
+            "labels": [
+              {
+                "$ref": "#nl:1"
+              }
+            ]
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:n0",
+            "type": {
+              "$ref": "#rt:n0"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n1"
+            }
+          },
+          {
+            "$id": "r:n9",
+            "type": {
+              "$ref": "#rt:n9"
+            },
+            "from": {
+              "$ref": "#n:n1"
+            },
+            "to": {
+              "$ref": "#n:n10"
+            }
+          },
+          {
+            "$id": "r:1",
+            "type": {
+              "$ref": "#rt:1"
+            },
+            "from": {
+              "$ref": "#n:n10"
+            },
+            "to": {
+              "$ref": "#n:1"
+            }
+          }
+        ],
+        "constraints": [
+          {
+            "$id": "c:6",
+            "name": "Victim_Model[]_UnSupervised_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:n1"
+            },
+            "properties": [
+              {
+                "$ref": "#p:6"
+              }
+            ]
+          },
+          {
+            "$id": "c:9",
+            "name": "Al_A_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:n0"
+            },
+            "properties": [
+              {
+                "$ref": "#p:9"
+              }
+            ]
+          },
+          {
+            "$id": "c:1",
+            "name": "Perturbation_Core_PC_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:n10"
+            },
+            "properties": [
+              {
+                "$ref": "#p:2"
+              }
+            ]
+          },
+          {
+            "$id": "c:2",
+            "name": "Defene_Defence_uniq",
+            "constraintType": "uniqueness",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:1"
+            },
+            "properties": [
+              {
+                "$ref": "#p:12"
+              }
+            ]
+          }
+        ],
+        "indexes": [
+          {
+            "$id": "i:6",
+            "name": "Victim_Model[]_UnSupervised_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:n1"
+            },
+            "properties": [
+              {
+                "$ref": "#p:6"
+              }
+            ]
+          },
+          {
+            "$id": "i:9",
+            "name": "Al_A_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:n0"
+            },
+            "properties": [
+              {
+                "$ref": "#p:9"
+              }
+            ]
+          },
+          {
+            "$id": "i:1",
+            "name": "Perturbation_Core_PC_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:n10"
+            },
+            "properties": [
+              {
+                "$ref": "#p:2"
+              }
+            ]
+          },
+          {
+            "$id": "i:2",
+            "name": "Defene_Defence_uniq",
+            "indexType": "default",
+            "entityType": "node",
+            "nodeLabel": {
+              "$ref": "#nl:1"
+            },
+            "properties": [
+              {
+                "$ref": "#p:12"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        {
+          "node": {
+            "$ref": "#n:n1"
+          },
+          "keyProperty": {
+            "$ref": "#p:6"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n0"
+          },
+          "keyProperty": {
+            "$ref": "#p:9"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n10"
+          },
+          "keyProperty": {
+            "$ref": "#p:2"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:1"
+          },
+          "keyProperty": {
+            "$ref": "#p:12"
+          }
+        }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "local/csv",
+        "tableSchemas": [
+          {
+            "name": "DPA_Family_Nodes-V1.1-Clean.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "ID",
+                "type": "integer",
+                "sample": "1",
+                "include": true
+              },
+              {
+                "name": "Al",
+                "type": "string",
+                "sample": "A",
+                "include": true
+              },
+              {
+                "name": "Name",
+                "type": "string",
+                "sample": "M-Gradient Descent/Adversarial Retraining",
+                "include": true
+              },
+              {
+                "name": "Data Type",
+                "type": "string",
+                "sample": "Image-Graph-Audio",
+                "include": true
+              },
+              {
+                "name": "Victim Model",
+                "type": "string",
+                "sample": "Supervised",
+                "include": true
+              },
+              {
+                "name": "Target Architecture",
+                "type": "string",
+                "sample": "",
+                "include": true
+              },
+              {
+                "name": "Threat Model",
+                "type": "string",
+                "sample": "Additive-White Box",
+                "include": true
+              },
+              {
+                "name": "Perturbation Core",
+                "type": "string",
+                "sample": "Gradient Descent",
+                "include": true
+              },
+              {
+                "name": "Visibility",
+                "type": "string",
+                "sample": "Optimal perturbation",
+                "include": true
+              },
+              {
+                "name": "Perturbation Search",
+                "type": "string",
+                "sample": "Gradient Based",
+                "include": true
+              },
+              {
+                "name": "Perturbation Scope",
+                "type": "string",
+                "sample": "Universal",
+                "include": true
+              },
+              {
+                "name": "Attack Frequency",
+                "type": "string",
+                "sample": "One Time",
+                "include": true
+              },
+              {
+                "name": "DPA",
+                "type": "string",
+                "sample": "M-PGD,A-APGD,M-FGSM,M-BIM,A-DeepFool,AFast-LPA,A-R-FGSM,A-N-FGSM,A-CW,A-Cassid,A NewtonFool,A-R-N-FG...",
+                "include": true
+              },
+              {
+                "name": "Defene",
+                "type": "string",
+                "sample": "Adversarial Retraining [39],Mask Gra dient [26]",
+                "include": true
+              }
+            ]
+          }
+        ]
+      },
+      "nodeMappings": [
+        {
+          "node": {
+            "$ref": "#n:n0"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:9"
+              },
+              "fieldName": "Al"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n1"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "property": {
+                "$ref": "#p:6"
+              },
+              "fieldName": "Victim Model"
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n10"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Perturbation Core",
+              "property": {
+                "$ref": "#p:2"
+              }
+            },
+            {
+              "fieldName": "Defene",
+              "property": {
+                "$ref": "#p:3"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:1"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Defene",
+              "property": {
+                "$ref": "#p:12"
+              }
+            }
+          ]
+        }
+      ],
+      "relationshipMappings": [
+        {
+          "relationship": {
+            "$ref": "#r:n0"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Victim Model",
+              "property": {
+                "$ref": "#p:4"
+              }
+            }
+          ],
+          "fromMapping": {
+            "fieldName": "Al"
+          },
+          "toMapping": {
+            "fieldName": "Victim Model"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n9"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Perturbation Core",
+              "property": {
+                "$ref": "#p:1"
+              }
+            },
+            {
+              "fieldName": "Threat Model",
+              "property": {
+                "$ref": "#p:5"
+              }
+            },
+            {
+              "fieldName": "Visibility",
+              "property": {
+                "$ref": "#p:7"
+              }
+            },
+            {
+              "fieldName": "Perturbation Search",
+              "property": {
+                "$ref": "#p:8"
+              }
+            },
+            {
+              "fieldName": "Perturbation Scope",
+              "property": {
+                "$ref": "#p:10"
+              }
+            },
+            {
+              "fieldName": "Attack Frequency",
+              "property": {
+                "$ref": "#p:11"
+              }
+            }
+          ],
+          "fromMapping": {
+            "fieldName": "Victim Model"
+          },
+          "toMapping": {
+            "fieldName": "Perturbation Core"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:1"
+          },
+          "tableName": "DPA_Family_Nodes-V1.1-Clean.csv",
+          "propertyMappings": [
+            {
+              "fieldName": "Defene",
+              "property": {
+                "$ref": "#p:14"
+              }
+            }
+          ],
+          "fromMapping": {
+            "fieldName": "Perturbation Core"
+          },
+          "toMapping": {
+            "fieldName": "Defene"
+          }
+        }
+      ]
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}
